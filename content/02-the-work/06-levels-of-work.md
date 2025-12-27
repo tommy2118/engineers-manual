@@ -12,9 +12,9 @@ summary: "Problem, Initiative, Epic, Task. Know what you've been handed."
 
 Someone hands you work. You start working. Three days later, you realize you're solving the wrong problem at the wrong level.
 
-This happens constantly. Someone says "fix the performance issue" and you start optimizing queries. But the actual problem was architectural—no amount of query optimization will fix it. You were handed a Problem and treated it like a Task.
+This happens constantly. Someone says "fix the performance issue" and you start optimizing queries. But the actual problem was architectural; no amount of query optimization will fix it. You were handed a Problem and treated it like a Task.
 
-Or the reverse: someone hands you a Task—"add a loading spinner here"—and you redesign the entire state management system. You were handed a Task and treated it like an Epic.
+Or the reverse: someone hands you a Task, "add a loading spinner here," and you redesign the entire state management system. You were handed a Task and treated it like an Epic.
 
 **Before you start working, know what you've been handed.**
 
@@ -62,7 +62,7 @@ You've been handed a problem to solve. No defined solution. No clear objective y
 
 *"Migrate to the new platform by Q1." "Launch self-serve onboarding." "Reduce churn by 30%."*
 
-The objective is defined. This is your thesis on how to solve the Problem. It's too big to execute directly—weeks or months of work.
+The objective is defined. This is your thesis on how to solve the Problem. It's too big to execute directly; it is weeks or months of work.
 
 **Your job:** Break it into Epics. Each Epic advances the Initiative. Together, they achieve the objective.
 
@@ -127,7 +127,7 @@ A specific action. 1-2 days of focused work. Clear acceptance criteria. This is 
 - Ship it
 - Move to the next Task
 
-**The trap:** Gold-plating. Tasks are small. Do the thing and move on. If you find yourself expanding scope, you've discovered a new Task—write it down and finish this one first.
+**The trap:** Gold-plating. Tasks are small. Do the thing and move on. If you find yourself expanding scope, you've discovered a new Task. Write it down and finish this one first.
 
 ---
 
@@ -189,7 +189,7 @@ Breaking big things into small things is a skill. It's also where most planning 
 
 **Premature decomposition:** Breaking things down before you understand them. You end up with a beautiful plan for the wrong thing.
 
-**Infinite decomposition:** Breaking Tasks into sub-Tasks into sub-sub-Tasks. If a Task is more than 2 days, it's an Epic. If it's less than a few hours, it's a step—just do it.
+**Infinite decomposition:** Breaking Tasks into sub-Tasks into sub-sub-Tasks. If a Task is more than 2 days, it's an Epic. If it's less than a few hours, it's a step, so just do it.
 
 **Level confusion:** Executing at the wrong level. Treating a Problem like a Task (jumping to solutions). Treating a Task like a Problem (over-analyzing).
 
@@ -210,4 +210,3 @@ Match the work to the level. Everything else follows.
 ---
 
 *Know what you've been handed. Work at the right level. Break it down until it's small enough to ship.*
-

@@ -24,9 +24,9 @@ The difference is how you do it.
 
 ### Driver and Navigator
 
-**Driver:** Hands on keyboard. Writing the code. Focused on the immediate—syntax, implementation, the line in front of you.
+**Driver:** Hands on keyboard. Writing the code. Focused on the immediate, syntax, implementation, the line in front of you.
 
-**Navigator:** Watching. Thinking ahead. Focused on the bigger picture—where are we going, what are we missing, what's the next step.
+**Navigator:** Watching. Thinking ahead. Focused on the bigger picture, where are we going, what are we missing, what's the next step.
 
 Both are working. The navigator isn't passive. They're thinking at a different level.
 
@@ -98,7 +98,7 @@ Pairing isn't always the right answer. It's a tool. Use it when it helps.
 
 **Switch drivers.** Don't let one person dominate. Rotation keeps both engaged.
 
-**Voice discomfort.** If something's not working—pace, approach, dynamic—say so. Don't suffer in silence.
+**Voice discomfort.** If something's not working, pace, approach, dynamic, say so. Don't suffer in silence.
 
 ### Common Problems
 
@@ -135,7 +135,7 @@ AI cannot:
 
 ### The Rule
 
-**AI assists privately. What lands in shared spaces—PRs, Slack, docs—must be unmistakably yours.**
+**AI assists privately. What lands in shared spaces (PRs, Slack, docs) must be unmistakably yours.**
 
 - Your voice
 - Your judgment
@@ -239,5 +239,4 @@ Collaboration multiplies capability. But only if you do it well.
 
 ---
 
-*Two heads are better than one—if both are actually thinking. Pair with intention. AI is a tool, not a replacement. You're responsible for what ships.*
-
+*Two heads are better than one if both are actually thinking. Pair with intention. AI is a tool, not a replacement. You're responsible for what ships.*

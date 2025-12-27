@@ -54,7 +54,7 @@ You don't fully understand the terrain yet. That's expected. Discovery is the wo
 
 This sets expectations. No one should expect a timeline yet. No one should expect you to be building yet. You're learning.
 
-**Discovery isn't delay—it's investment.** Every hour in discovery saves multiple hours of building the wrong thing.
+**Discovery isn't delay; it's investment.** Every hour in discovery saves multiple hours of building the wrong thing.
 
 **Exit when:**
 - You can explain the problem space clearly to someone else
@@ -74,7 +74,7 @@ For each significant decision, articulate the tradeoffs.
 
 There's no "right answer." There's no "best practice." There's only: **"What are we giving up, and can we live with it?"**
 
-Document the tradeoffs. Not for bureaucracy—for clarity. When someone asks "why did you do it this way?" the answer is in the document.
+Document the tradeoffs. Not for bureaucracy, for clarity. When someone asks "why did you do it this way?" the answer is in the document.
 
 ### Planning
 
@@ -103,7 +103,7 @@ Break the Epic into Tasks.
 
 **Purpose:** Validate load-bearing decisions before you commit.
 
-Prove is where you test your assumptions. Not all of them—just the ones that matter.
+Prove is where you test your assumptions. Not all of them; just the ones that matter.
 
 ### When Prove is Required
 
@@ -163,13 +163,13 @@ You've done the preparation. You've validated the risks. Now build.
 
 ### The Rhythm
 
-**Sequence matters.** Architectural tasks first. Design tasks after. This isn't arbitrary—it's risk management. Get the load-bearing stuff right before you build on top of it.
+**Sequence matters.** Architectural tasks first. Design tasks after. This isn't arbitrary; it's risk management. Get the load-bearing stuff right before you build on top of it.
 
 **For each Task:**
 
 1. **Confirm criteria.** Before you start, confirm what done looks like. Don't assume.
 
-2. **Build.** Do the work. Trust your prep. Stay focused on the scoped definition—not the thing you just thought of that would be cool.
+2. **Build.** Do the work. Trust your prep. Stay focused on the scoped definition, not the thing you just thought of that would be cool.
 
 3. **Test.** Verify against acceptance criteria, not intuition. The criteria are the criteria.
 
@@ -262,4 +262,3 @@ The exact timing varies by Epic. Some need more Prepare. Some need more Prove. B
 ---
 
 *Prepare to understand. Prove to validate. Produce to ship. This is the cycle.*
-

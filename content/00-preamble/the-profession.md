@@ -54,7 +54,7 @@ The system you ship will be used by people. It will handle their data, their mon
 
 The architectural decision you make today will constrain the engineers who come after you. They will inherit your tradeoffs. They will live with your shortcuts.
 
-The code you write will be read more than it's written. Someone—maybe you in six months—will need to understand it, modify it, debug it at 2 AM.
+The code you write will be read more than it's written. Someone, maybe you in six months, will need to understand it, modify it, debug it at 2 AM.
 
 **This is not a game.** The work matters. The craft matters.
 
@@ -71,13 +71,13 @@ Responsibility means:
 
 Engineering is a craft. Craft requires practice, discipline, and standards.
 
-**Practice** means you don't just do the work—you reflect on it. What went well? What didn't? What will you do differently? Experience without reflection is just time spent.
+**Practice** means you don't just do the work; you reflect on it. What went well? What didn't? What will you do differently? Experience without reflection is just time spent.
 
 **Discipline** means you do the right thing even when no one's watching. You write tests when you could skip them. You refactor when you could ship the hack. You document when you could leave it implicit. Not because someone's checking. Because that's the standard.
 
 **Standards** means you have a bar and you hold it. You know what good looks like. You don't ship below the bar just because you're tired or pressured or bored. The bar is the bar.
 
-Craft is not perfectionism. Perfectionism is the enemy of shipping. Craft is about *appropriate quality*—knowing what level of quality is required and consistently hitting it.
+Craft is not perfectionism. Perfectionism is the enemy of shipping. Craft is about *appropriate quality*, knowing what level of quality is required and consistently hitting it.
 
 A craftsperson knows:
 - The difference between done and perfect

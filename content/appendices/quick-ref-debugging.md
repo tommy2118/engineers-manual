@@ -70,4 +70,4 @@ type: quick-ref
 
 - Assume nothing
 - Verify everything
-- The bug is always in the last place you look—so look there first
+- The bug is always in the last place you look, so look there first

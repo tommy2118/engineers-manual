@@ -10,7 +10,7 @@ summary: "Giving and receiving feedback on code."
 
 ## Why Code Review
 
-Code review isn't about finding bugs. Well, it is—but that's not the main point.
+Code review isn't about finding bugs. Well, it is, but that's not the main point.
 
 Code review is about:
 - **Shared ownership.** More than one person knows how the code works.
@@ -63,7 +63,7 @@ You're not just looking for bugs. You're trying to make the code better and help
 
 ### How to Give Feedback
 
-**Be specific.** Point to the line. Name the concern. Don't say "this is confusing"—say "I don't understand what happens when X is null."
+**Be specific.** Point to the line. Name the concern. Don't say "this is confusing"; say "I don't understand what happens when X is null."
 
 **Explain why.** Not just "don't do this" but "this could cause Y because Z."
 
@@ -213,4 +213,3 @@ Assigned but never reviews. Holding up the team. If you can't review, say so. Un
 ---
 
 *Review to help, not to prove. Receive to learn, not to defend. The goal is better code, shipped.*
-

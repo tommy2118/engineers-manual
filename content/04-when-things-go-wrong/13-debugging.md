@@ -14,7 +14,7 @@ Something isn't working. The code is doing something you didn't expect. There's 
 
 That gap is the bug. Your job is to find it, understand it, and close it.
 
-Most developers debug by intuition—change things until it works. This is slow, unreliable, and doesn't teach you anything. There's a better way.
+Most developers debug by intuition, change things until it works. This is slow, unreliable, and doesn't teach you anything. There's a better way.
 
 Debugging is the scientific method applied to code.
 
@@ -43,7 +43,7 @@ If you can't reproduce the bug, you can't know if you've fixed it. Reproduction 
 
 **Environment.** What OS? What browser? What version? What data? Production vs. staging vs. local?
 
-**Consistency.** Does it happen every time or intermittently? Intermittent bugs are harder—you need more information.
+**Consistency.** Does it happen every time or intermittently? Intermittent bugs are harder; you need more information.
 
 ### How to Reproduce
 
@@ -89,7 +89,7 @@ You know the bug exists. Now narrow down where.
 
 **Use a debugger.** Step through the code. Watch variables change. See what actually happens, not what you think happens.
 
-**Check the boundaries.** Problems often live at interfaces—between systems, between functions, between assumptions.
+**Check the boundaries.** Problems often live at interfaces, between systems, between functions, between assumptions.
 
 ### Binary Search in Time
 
@@ -125,7 +125,7 @@ But you didn't understand why the bug existed. So your fix might not actually so
 
 ### Techniques
 
-**Read the code.** Actually read it. Line by line. What does it do? (Not what you think it does—what it actually does.)
+**Read the code.** Actually read it. Line by line. What does it do? (Not what you think it does, what it actually does.)
 
 **Trace the data.** Follow the data through the system. Where does it come from? Where does it go? Where does it change?
 
@@ -153,7 +153,7 @@ You understand the bug. Now fix it.
 2. Make the fix
 3. Verify the test passes
 4. Run all tests to ensure nothing else broke
-5. Consider edge cases—does your fix handle them?
+5. Consider edge cases; does your fix handle them?
 
 ### What About Quick Fixes?
 
@@ -220,7 +220,7 @@ When you're stuck, you're holding an incorrect assumption. One of your beliefs a
 ### The Process
 
 1. **List your assumptions.** What do you believe is true? Write them down.
-2. **Verify each one.** Don't assume—prove. Check with logs, debugger, tests.
+2. **Verify each one.** Don't assume; prove. Check with logs, debugger, tests.
 3. **Find the false belief.** The bug lives behind the wrong assumption.
 
 ### Common False Assumptions
@@ -279,7 +279,7 @@ There's no shame in asking. It's not a sign of weakness. It's efficient debuggin
 
 ### It's Almost Never the Framework
 
-Before you blame the framework, the library, the compiler, the hardware—check your code again.
+Before you blame the framework, the library, the compiler, or the hardware, check your code again.
 
 It's almost always your code. The tools have been tested by millions of users. Your code has been tested by you.
 
@@ -362,4 +362,3 @@ Different config. Different versions. Different data. Different resources.
 ---
 
 *Reproduce. Isolate. Understand. Fix. Verify. Learn. This is the methodology. Everything else is guessing.*
-

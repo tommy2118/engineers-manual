@@ -22,9 +22,9 @@ Know the difference. Invest accordingly.
 
 ## The Core Distinction
 
-**Architecture** is like the structure of a building—the foundation, the plumbing, the electrical, the wall layout. Changing it after the fact is expensive or impossible. Everything else depends on it.
+**Architecture** is like the structure of a building, the foundation, the plumbing, the electrical, the wall layout. Changing it after the fact is expensive or impossible. Everything else depends on it.
 
-**Design** is like the decoration—wall color, flooring, fixtures. Easier to change at later stages. Important, but not load-bearing.
+**Design** is like the decoration, wall color, flooring, fixtures. Easier to change at later stages. Important, but not load-bearing.
 
 The question to ask: **"What's the cost if this is wrong?"**
 
@@ -35,11 +35,11 @@ The question to ask: **"What's the cost if this is wrong?"**
 
 ## Architectural Decisions (Hard to Change)
 
-These are load-bearing. Get them wrong and you'll pay for it—either in expensive rework or in living with the consequences.
+These are load-bearing. Get them wrong and you'll pay for it, either in expensive rework or in living with the consequences.
 
 **Database schema and data model.** How you structure your data shapes everything built on top of it. Migrations are possible but painful. The wrong model creates friction in every feature.
 
-**Service boundaries.** Where you draw the lines between systems. Too many services, too few, wrong boundaries—each creates its own pain. Changing boundaries means changing contracts, deployments, and team structures.
+**Service boundaries.** Where you draw the lines between systems. Too many services, too few, or wrong boundaries each creates its own pain. Changing boundaries means changing contracts, deployments, and team structures.
 
 **Authentication and authorization strategy.** How users prove who they are and what they can do. Fundamental to security. Changing this later touches everything.
 
@@ -97,7 +97,7 @@ For each architectural option, make the tradeoffs explicit.
 - What constraints does this create for future work?
 - What's the cost to change this later if we're wrong?
 
-**Document the answers.** Not for bureaucracy—for clarity. When someone asks "why did we do it this way?" the answer should be findable.
+**Document the answers.** Not for bureaucracy, for clarity. When someone asks "why did we do it this way?" the answer should be findable.
 
 **Example:**
 
@@ -138,7 +138,7 @@ When you're making an architectural decision, have this conversation:
 
 **Defer design decisions.** You'll know more later. Keep options open.
 
-**Make architectural decisions early.** Once you start building on them, they're locked in. Get them right—or at least, get them consciously chosen.
+**Make architectural decisions early.** Once you start building on them, they're locked in. Get them right, or at least, get them consciously chosen.
 
 ---
 
@@ -160,7 +160,7 @@ That answer tells you how much investment the decision deserves.
 
 ## Documenting Architectural Decisions
 
-Write it down. Not a novel—a record.
+Write it down. Not a novel, a record.
 
 **Architecture Decision Record (ADR):**
 - **Context:** What situation are we in?
@@ -215,5 +215,4 @@ If you can answer all five, decide and move on. If you can't, you're not ready.
 
 ---
 
-*Know what's load-bearing. Surface the tradeoffs. Choose deliberately. Document why. There are no best practices—only tradeoffs you can live with.*
-
+*Know what's load-bearing. Surface the tradeoffs. Choose deliberately. Document why. There are no best practices; only tradeoffs you can live with.*

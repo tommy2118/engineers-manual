@@ -78,15 +78,15 @@ You should know them.
 Not because someone will quiz you. Because the ideas are load-bearing. They show up everywhere. Understanding them once means recognizing them forever.
 
 **Start here:**
-- _Practical Object-Oriented Design in Ruby_ — Sandi Metz (design principles that transfer)
-- _Test Driven Development: By Example_ — Kent Beck (the discipline)
-- _Refactoring_ — Martin Fowler (the moves)
-- _A Philosophy of Software Design_ — John Ousterhout (complexity as the enemy)
+- _Practical Object-Oriented Design in Ruby_ by Sandi Metz (design principles that transfer)
+- _Test Driven Development: By Example_ by Kent Beck (the discipline)
+- _Refactoring_ by Martin Fowler (the moves)
+- _A Philosophy of Software Design_ by John Ousterhout (complexity as the enemy)
 
 **Then:**
-- _Growing Object-Oriented Software, Guided by Tests_ — Freeman & Pryce (outside-in TDD)
-- _Working Effectively with Legacy Code_ — Michael Feathers (the real world)
-- _Designing Data-Intensive Applications_ — Martin Kleppmann (systems)
+- _Growing Object-Oriented Software, Guided by Tests_ by Freeman & Pryce (outside-in TDD)
+- _Working Effectively with Legacy Code_ by Michael Feathers (the real world)
+- _Designing Data-Intensive Applications_ by Martin Kleppmann (systems)
 
 Read one. Apply it. Read the next. Don't rush. The goal isn't to finish the list. The goal is to internalize the ideas.
 
@@ -137,7 +137,7 @@ Everything else? Let the giants carry you.
 
 You received. Now you give.
 
-The veterans who wrote the books, gave the talks, answered the questions on Stack Overflow, reviewed your first PR—they didn't have to. They did it because someone did it for them.
+The veterans who wrote the books, gave the talks, answered the questions on Stack Overflow, and reviewed your first PR did not have to. They did it because someone did it for them.
 
 The chain continues through you.
 

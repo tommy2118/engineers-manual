@@ -14,7 +14,7 @@ Production is broken. Users are affected. The pager goes off. Your heart rate sp
 
 This is an incident. Not a bug to fix at your leisure. Not a task for the backlog. An emergency requiring immediate response.
 
-How you handle incidents defines you as an engineer. Not because heroics matter—but because incidents reveal your training, your systems, and your character under pressure.
+How you handle incidents defines you as an engineer. Not because heroics matter, but because incidents reveal your training, your systems, and your character under pressure.
 
 ---
 
@@ -30,7 +30,7 @@ The alert fires. Something is wrong.
 
 **Declare if needed.** If it's real, say so. "We have an incident. [Brief description]. I'm investigating."
 
-**Get the right people.** Who needs to know? Who can help? Don't be a hero—get help if you need it.
+**Get the right people.** Who needs to know? Who can help? Don't be a hero; get help if you need it.
 
 ### The First Ten Minutes
 
@@ -124,7 +124,7 @@ Silence during an incident is terrifying. People imagine the worst. They start p
 
 **Be honest.** If you don't know, say so. "We're investigating" is fine. Speculation is not.
 
-**Update regularly.** Every 15-30 minutes during active incidents. Even if nothing has changed—"Still investigating, no new information" is an update.
+**Update regularly.** Every 15-30 minutes during active incidents. Even if nothing has changed, "Still investigating, no new information" is an update.
 
 **Document as you go.** You'll need this for the post-mortem. Write down what you did and when.
 
@@ -399,5 +399,4 @@ Each step matters. Do them in order.
 
 ---
 
-*Stay calm. Stabilize first. Communicate always. Learn from everything. You fall to your training—so train well.*
-
+*Stay calm. Stabilize first. Communicate always. Learn from everything. You fall to your training, so train well.*

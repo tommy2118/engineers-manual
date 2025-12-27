@@ -12,7 +12,7 @@ summary: "TDD, refactoring, Metz's rules. The craft of implementation."
 
 Writing code is a craft. Like any craft, it has techniques that can be learned, practiced, and refined.
 
-This chapter covers the techniques that work. Not theory—practice. The moves that let you write code that works, that you can change, that others can read.
+This chapter covers the techniques that work. Not theory, practice. The moves that let you write code that works, that you can change, that others can read.
 
 The masters have already figured this out. Metz. Beck. Fowler. Freeman and Pryce. Learn from them.
 
@@ -65,11 +65,11 @@ This style uses mocks and stubs to define interfaces before implementations exis
 
 ### What to Test
 
-**Incoming query messages:** Assert the result. The method returns something—verify it's correct.
+**Incoming query messages:** Assert the result. The method returns something; verify it's correct.
 
-**Incoming command messages:** Assert the side effects. The method changes state—verify the change happened.
+**Incoming command messages:** Assert the side effects. The method changes state; verify the change happened.
 
-**Outgoing command messages:** Expect the send. The method tells a collaborator to do something—verify it sent the message.
+**Outgoing command messages:** Expect the send. The method tells a collaborator to do something; verify it sent the message.
 
 **Don't test:**
 - Private methods (test the public interface)
@@ -80,7 +80,7 @@ This style uses mocks and stubs to define interfaces before implementations exis
 
 ## Sandi Metz's Rules
 
-These rules come from decades of experience. They're not arbitrary—they're guidelines for code that stays maintainable.
+These rules come from decades of experience. They're not arbitrary; they're guidelines for code that stays maintainable.
 
 ### The Rules
 
@@ -142,15 +142,15 @@ The first part is often harder. You look at the code and think "if only it was s
 
 ### Common Refactorings
 
-**Extract Method.** A chunk of code does something—give it a name and make it a method.
+**Extract Method.** A chunk of code does something, so give it a name and make it a method.
 
-**Extract Class.** A class has multiple responsibilities—pull one out into its own class.
+**Extract Class.** A class has multiple responsibilities, so pull one out into its own class.
 
-**Rename.** The name doesn't match what it does—change the name.
+**Rename.** The name doesn't match what it does, so change the name.
 
-**Inline.** The abstraction doesn't add value—collapse it.
+**Inline.** The abstraction doesn't add value, so collapse it.
 
-**Move Method.** The method uses another object's data more than its own—move it to that object.
+**Move Method.** The method uses another object's data more than its own, so move it to that object.
 
 ### When to Refactor
 
@@ -188,7 +188,7 @@ Composition creates flexibility. Objects collaborate through interfaces. Swap im
 
 ## Code Smells
 
-Signs that something might be wrong. Not errors—smells. They warrant investigation.
+Signs that something might be wrong. Not errors, smells. They warrant investigation.
 
 **Long Method.** More than 5-10 lines. What's it doing? Can you extract pieces?
 
@@ -257,4 +257,3 @@ Not clever code. Not impressive code. Not code that demonstrates your skills.
 ---
 
 *Write the test first. Make it pass. Clean it up. Keep the code working. Keep it simple. Keep it clear. This is the craft of implementation.*
-

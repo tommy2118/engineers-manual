@@ -181,16 +181,16 @@ Searching is a skill. The quality of your query determines the quality of your r
 ### Searching Code
 
 **GitHub search:**
-- `language:ruby filename:Gemfile` — Find Ruby projects
-- `org:rails path:activerecord` — Search within a repo/org
-- `"def find_by"` — Exact phrase matching
+- `language:ruby filename:Gemfile`: find Ruby projects
+- `org:rails path:activerecord`: search within a repo or org
+- `"def find_by"`: exact phrase matching
 - Search in a specific repo for usage examples
 
 **Your codebase:**
-- `grep -r "pattern" .` — Simple but effective
-- IDE search with regex — More powerful
-- `git log -S "function_name"` — When was this added/changed?
-- `git log --all --full-history -- "**/filename.*"` — File history
+- `grep -r "pattern" .`: simple but effective
+- IDE search with regex: more powerful
+- `git log -S "function_name"`: when was this added or changed?
+- `git log --all --full-history -- "**/filename.*"`: file history
 
 **Reading others' code:**
 - Find popular repos that use the library
@@ -368,7 +368,7 @@ You can break rules if:
 
 "We're breaking X because Y. The tradeoff is Z."
 
-**Don't break rules you don't understand.** That's not judgment—it's ignorance.
+**Don't break rules you don't understand.** That's not judgment; it's ignorance.
 
 ---
 
@@ -386,7 +386,7 @@ Finding your own answers is a skill. It improves with practice.
 
 **Document your findings.** When you solve something hard, write it down. For yourself. For others.
 
-**Verify always.** AI, Stack Overflow, blog posts—all need verification. Trust but verify.
+**Verify always.** AI, Stack Overflow, and blog posts all need verification. Trust but verify.
 
 ### The Compound Effect
 
@@ -420,7 +420,7 @@ A professional engineer:
 
 1. **Knows the hierarchy of truth.** Spec > Docs > Examples > Community > Opinion.
 
-2. **Reads documentation effectively.** Not skimming—reading.
+2. **Reads documentation effectively.** Not skimming, reading.
 
 3. **Searches skillfully.** Specific queries, version numbers, error messages.
 

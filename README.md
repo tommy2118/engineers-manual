@@ -7,9 +7,9 @@
 
 ## What This Is
 
-A field manual for software engineers. Covers the fundamentals, the frameworks, and the hard-won lessons that help you ship better.
+A field manual for software engineers. It covers the fundamentals, the frameworks, and the hard-won lessons that help you ship better.
 
-This is for engineers at any point in their journey—to guide, teach, mentor, and reinforce.
+This is for engineers at any point in their journey. It exists to guide, teach, mentor, and reinforce.
 
 ---
 
@@ -31,7 +31,7 @@ appendices/          → Quick references, reading list, glossary
 
 Each concept lives in its own markdown file. These are the source of truth.
 
-The files are drafts and notes—raw material. They will be composed into the final manual.
+The files are drafts and notes, raw material that will be shaped into the final manual.
 
 ---
 

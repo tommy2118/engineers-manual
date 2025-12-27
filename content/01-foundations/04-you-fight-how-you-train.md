@@ -1,10 +1,10 @@
 ---
 title: "You Fight the Way You Train"
 chapter: 4
-summary: "You don't rise to aspirations—you fall to your training. Cut corners now, pay later."
+summary: "You don't rise to aspirations; you fall to your training. Cut corners now, pay later."
 ---
 
-> You don't rise to your aspirations—you fall to the level of your training. You fight the way you train. Cut corners in training and you'll pay it back in battle.
+> You don't rise to your aspirations; you fall to the level of your training. You fight the way you train. Cut corners in training and you'll pay it back in battle.
 
 ---
 
@@ -16,7 +16,7 @@ You'll do whatever you've done a hundred times before.
 
 Your habits are your crisis response. Not your knowledge. Not your intentions. Your habits.
 
-This is the uncomfortable truth: **there is no rising to the occasion.** There is only falling to the level of your training. The question is—what have you been training?
+This is the uncomfortable truth: **there is no rising to the occasion.** There is only falling to the level of your training. The question is, what have you been training?
 
 ---
 
@@ -68,7 +68,7 @@ If you only write clean code on greenfield projects with clear requirements, you
 - Working in unfamiliar codebases
 - Debugging without access to all the information
 - Making decisions with incomplete understanding
-- Shipping under time pressure—and still doing it right
+- Shipping under time pressure and still doing it right
 
 The gym is not the fight. But the gym is where you build what you'll use in the fight.
 
@@ -76,7 +76,7 @@ The gym is not the fight. But the gym is where you build what you'll use in the 
 
 ## The Cost of Shortcuts
 
-Every shortcut is a debt. Sometimes debt is appropriate—you know what you're borrowing and you have a plan to pay it back.
+Every shortcut is a debt. Sometimes debt is appropriate; you know what you're borrowing and you have a plan to pay it back.
 
 But most shortcuts aren't conscious debt. They're just... shortcuts. Skip the test. Skip the review. Ship the hack. Nobody will notice.
 
@@ -90,7 +90,7 @@ The problem isn't that shortcuts fail immediately. The problem is that they work
 
 ## Deliberate Practice
 
-Not all practice is equal. Playing a song you already know isn't practice—it's performance. Real practice is:
+Not all practice is equal. Playing a song you already know isn't practice; it's performance. Real practice is:
 
 1. **Focused.** You're working on something specific, not just going through the motions.
 2. **At the edge of ability.** Comfortable is too easy. Impossible is too hard. The learning zone is uncomfortable but achievable.
@@ -119,7 +119,7 @@ You can't think your way to good habits. You have to build them deliberately.
 4. Track it. Did you do it today? This week?
 5. Forgive lapses, but don't ignore them. Each lapse is data about what triggers the old behavior.
 
-It takes time. Weeks. Months. But once the habit is built, it's automatic. You don't have to decide to do the right thing—you just do it.
+It takes time. Weeks. Months. But once the habit is built, it's automatic. You don't have to decide to do the right thing; you just do it.
 
 ---
 
@@ -155,9 +155,8 @@ The question isn't whether you're training. The question is what you're training
 **Always:**
 - When you catch yourself taking a shortcut, stop and do it right
 - When you don't understand, admit it and dig deeper
-- When you make a mistake, understand why—don't just fix it
+- When you make a mistake, understand why; don't just fix it
 
 ---
 
 *You fight the way you train. There are no exceptions. Build the habits now that you'll need when it matters.*
-

@@ -20,7 +20,7 @@ Mastery isn't optional. It's foundational.
 
 This means:
 - **Know what you have.** Every tool in your kit, what it does, where it is.
-- **Know how to use it.** Not just the basics—the advanced features that save you when things go wrong.
+- **Know how to use it.** Not just the basics; the advanced features that save you when things go wrong.
 - **Know when to use it.** The right tool for the right job. Don't use a hammer on screws.
 - **Maintain it.** A dull blade is worse than no blade. Keep your tools sharp.
 
@@ -41,7 +41,7 @@ This is your primary weapon. You'll spend more time here than anywhere else.
 - Debugging: Breakpoints, step through, watch expressions, conditional breaks
 - Integration: Git, terminal, test runner, linter
 
-**Pick one. Master it.** VS Code, Vim, Emacs, RubyMine—doesn't matter which. What matters is you're not fumbling when you need to move fast.
+**Pick one. Master it.** VS Code, Vim, Emacs, RubyMine; it doesn't matter which. What matters is you're not fumbling when you need to move fast.
 
 If you're reaching for the mouse for common operations, you're not there yet.
 
@@ -56,7 +56,7 @@ The terminal is your direct line to the machine. GUI tools come and go. The term
 - Networking: `curl`, `wget`, `ssh`, `scp`, `netstat`, `dig`
 - Text processing: pipes, redirects, xargs
 
-**Know your shell.** Bash, Zsh, Fish—pick one. Configure it. Aliases for common commands. Custom prompt that tells you what you need.
+**Know your shell.** Bash, Zsh, or Fish. Pick one. Configure it. Aliases for common commands. Custom prompt that tells you what you need.
 
 ```bash
 # Examples of aliases that pay dividends
@@ -202,7 +202,7 @@ A cluttered workshop produces cluttered work.
 
 ### Keep It Clean
 
-- **Dotfiles in version control.** Your shell config, editor config, git config—all versioned. Reproducible on any machine.
+- **Dotfiles in version control.** Your shell config, editor config, git config, all versioned. Reproducible on any machine.
 - **Prune regularly.** Old branches, stale containers, unused dependencies. Cruft accumulates.
 - **Document your setup.** New machine? You should be productive in hours, not days.
 

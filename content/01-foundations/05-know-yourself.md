@@ -16,7 +16,7 @@ The way you debug code is the way you troubleshoot a car. The way you plan a pro
 
 This pattern transferred from domain to domain before you were an engineer. It will follow you to whatever comes next.
 
-**Know your pattern.** It's your most valuable asset—and your most persistent liability.
+**Know your pattern.** It's your most valuable asset and your most persistent liability.
 
 ---
 
@@ -24,7 +24,7 @@ This pattern transferred from domain to domain before you were an engineer. It w
 
 Some people receive a briefing and start executing immediately. They trust the information, accept the constraints, and move. Fast. Efficient. Decisive.
 
-Others need to build their own mental model first. They poke at the problem. Test hypotheses. Be wrong a few times. Only then do they move—but when they move, they move with understanding.
+Others need to build their own mental model first. They poke at the problem. Test hypotheses. Be wrong a few times. Only then do they move, but when they move, they move with understanding.
 
 Neither is better. Both have costs.
 
@@ -70,7 +70,7 @@ Here's something that took too long to learn: you're allowed to work the way you
 
 If you need to build a mental model before you can execute, that's not a weakness to fix. That's how you work. Build the model. Just don't let it become an excuse for not shipping.
 
-If you work in bursts—intense focus followed by recovery—that's not a discipline problem. That's how you work. Arrange your schedule around it instead of fighting it.
+If you work in bursts, with intense focus followed by recovery, that's not a discipline problem. That's how you work. Arrange your schedule around it instead of fighting it.
 
 If you think by talking, find someone to talk to. If you think by writing, write first. If you need to see the code before you can design, write the code first.
 
@@ -157,5 +157,4 @@ The goal isn't to become someone without patterns or failure modes. The goal is 
 
 ---
 
-*Your pattern follows you. Your failure modes follow you. The question isn't whether they exist—it's whether you know them well enough to manage them.*
-
+*Your pattern follows you. Your failure modes follow you. The question isn't whether they exist; it's whether you know them well enough to manage them.*

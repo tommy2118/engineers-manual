@@ -58,9 +58,9 @@ type: quick-ref
 ### Produce
 
 **For each Task:**
-1. Build — Do the work
-2. Test — Verify against criteria
-3. Ship — Complete, communicate, move on
+1. Build: do the work
+2. Test: verify against criteria
+3. Ship: complete, communicate, move on
 
 **After each Task:**
 - What did you learn?

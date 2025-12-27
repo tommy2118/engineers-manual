@@ -20,7 +20,7 @@ Technical skills get you hired. Communication skills determine what you can acco
 
 ## Declaring Your Status
 
-Your manager, your team, your stakeholders—they can't see inside your head. They don't know if you're stuck, making progress, blocked, or confused. Silence looks the same whether you're crushing it or drowning.
+Your manager, your team, your stakeholders, they can't see inside your head. They don't know if you're stuck, making progress, blocked, or confused. Silence looks the same whether you're crushing it or drowning.
 
 **Declare your status proactively.**
 
@@ -34,7 +34,7 @@ This reframes not-knowing as process, not failure. It sets expectations. It buys
 **In validation:**
 *"I'm spiking the riskiest assumption. I'll know by end of day if our approach holds."*
 
-This shows progress while acknowledging uncertainty. You're not guessing—you're testing.
+This shows progress while acknowledging uncertainty. You're not guessing; you're testing.
 
 **When blocked:**
 *"I'm blocked on X. I need Y to proceed. Can you help me get Y?"*
@@ -66,7 +66,7 @@ You're allowed to not know. That's expected at the start of any significant work
 
 **Bad:** Pretending you understand when you don't. Building on shaky foundations. Wasting time because you were afraid to ask.
 
-**Good:** "I don't understand X. Can you explain it?" "What did you mean when you said Y?" "I'm confused about Z—is it A or B?"
+**Good:** "I don't understand X. Can you explain it?" "What did you mean when you said Y?" "I'm confused about Z; is it A or B?"
 
 Questions asked early are cheap. Questions asked after you've built the wrong thing are expensive.
 
@@ -98,7 +98,7 @@ This applies to most engineering work. You're trying to understand, not win. Que
 
 ### Why Write
 
-**If it's not written down, it doesn't exist.** Verbal agreements, whiteboard discussions, hallway conversations—they evaporate. People remember differently. Details shift.
+**If it's not written down, it doesn't exist.** Verbal agreements, whiteboard discussions, hallway conversations, they evaporate. People remember differently. Details shift.
 
 **Writing clarifies thinking.** The act of putting it in words forces you to be precise. Fuzzy thinking becomes clear (or reveals itself as fuzzy).
 
@@ -112,13 +112,13 @@ This applies to most engineering work. You're trying to understand, not win. Que
 
 **Status updates.** Where things are, what's next, what's blocked.
 
-**How things work.** Enough for someone else to understand. Not a novel—a map.
+**How things work.** Enough for someone else to understand. Not a novel, a map.
 
 **What went wrong.** Post-mortems, learnings, mistakes. The pain should teach someone something.
 
 ### Where to Write
 
-**Somewhere findable.** If no one can find it, it doesn't exist. Team wiki, shared docs, repo readme—pick a place, use it consistently.
+**Somewhere findable.** If no one can find it, it doesn't exist. Team wiki, shared docs, repo readme; pick a place, use it consistently.
 
 **Close to the code.** README in the repo. Comments explaining why (not what). The closer to the code, the more likely it stays current.
 
@@ -221,4 +221,3 @@ Communication isn't a soft skill. It's how work gets done.
 ---
 
 *Declare your status. Ask the questions. Write it down. The communication is the work, not a distraction from it.*
-
