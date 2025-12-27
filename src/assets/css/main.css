@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Anchor link offset for fixed header */
+  [id] {
+    scroll-margin-top: 5rem;
+  }
+}
+
+@layer components {
+  /* Quick reference cards */
+  .quick-ref-card {
+    @apply border border-manual-200 rounded-lg p-4 bg-manual-50;
+  }
+
+  /* Callout boxes */
+  .callout {
+    @apply border-l-4 border-accent pl-4 py-2 my-4 bg-manual-50;
+  }
+
+  /* Navigation item */
+  .nav-item {
+    @apply block py-1 px-2 text-manual-700 hover:text-accent hover:bg-manual-100 rounded transition-colors;
+  }
+
+  .nav-item-active {
+    @apply text-accent font-medium bg-manual-100;
+  }
+}
+
+@layer utilities {
+  /* Print styles */
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+  }
+}

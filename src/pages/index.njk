@@ -1,0 +1,51 @@
+---
+layout: layouts/base.njk
+title: Home
+permalink: /
+---
+
+<div class="max-w-2xl mx-auto">
+  <header class="mb-12 text-center">
+    <h1 class="text-4xl font-bold text-manual-950 mb-4">{{ site.title }}</h1>
+    <p class="text-xl text-manual-600">{{ site.description }}</p>
+  </header>
+
+  <section class="mb-12">
+    <blockquote class="border-l-4 border-accent pl-4 text-lg text-manual-700 italic">
+      The voice in your ear. Bullets flying, ammo is low. Night is coming. You need an answer. Grab the manual.
+    </blockquote>
+  </section>
+
+  <nav class="space-y-8">
+    {% for chapter in collections.chapters %}
+      {% if loop.first or chapter.data.part != collections.chapters[loop.index0 - 1].data.part %}
+        {% if not loop.first %}</ul>{% endif %}
+        <h2 class="text-xl font-semibold text-manual-900 mt-8 mb-3">{{ chapter.data.partTitle }}</h2>
+        <ul class="space-y-2">
+      {% endif %}
+      <li>
+        <a href="{{ chapter.url }}" class="block p-3 rounded-lg hover:bg-manual-100 transition-colors">
+          <span class="font-mono text-sm text-manual-500">{{ chapter.data.chapter }}.</span>
+          <span class="text-manual-800 font-medium">{{ chapter.data.title }}</span>
+          {% if chapter.data.summary %}
+            <p class="text-sm text-manual-600 mt-1">{{ chapter.data.summary }}</p>
+          {% endif %}
+        </a>
+      </li>
+      {% if loop.last %}</ul>{% endif %}
+    {% endfor %}
+
+    {% if collections.appendices.length > 0 %}
+      <h2 class="text-xl font-semibold text-manual-900 mt-8 mb-3">Appendices</h2>
+      <ul class="space-y-2">
+        {% for appendix in collections.appendices %}
+          <li>
+            <a href="{{ appendix.url }}" class="block p-3 rounded-lg hover:bg-manual-100 transition-colors">
+              <span class="text-manual-800 font-medium">{{ appendix.data.title }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </nav>
+</div>

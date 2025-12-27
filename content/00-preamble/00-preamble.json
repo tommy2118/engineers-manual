@@ -1,0 +1,6 @@
+{
+  "layout": "layouts/chapter.njk",
+  "part": 0,
+  "partTitle": "Preamble",
+  "permalink": "/preamble/{{ page.fileSlug }}/"
+}

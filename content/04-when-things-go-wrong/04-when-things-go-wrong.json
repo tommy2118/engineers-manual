@@ -1,0 +1,6 @@
+{
+  "layout": "layouts/chapter.njk",
+  "part": 4,
+  "partTitle": "When Things Go Wrong",
+  "permalink": "/when-things-go-wrong/{{ page.fileSlug }}/"
+}

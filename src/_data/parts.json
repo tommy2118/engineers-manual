@@ -1,0 +1,9 @@
+{
+  "0": { "title": "Preamble", "slug": "preamble" },
+  "1": { "title": "Foundations", "slug": "foundations" },
+  "2": { "title": "The Work", "slug": "the-work" },
+  "3": { "title": "Working With Others", "slug": "working-with-others" },
+  "4": { "title": "When Things Go Wrong", "slug": "when-things-go-wrong" },
+  "5": { "title": "The Long Game", "slug": "the-long-game" },
+  "appendices": { "title": "Appendices", "slug": "appendices" }
+}

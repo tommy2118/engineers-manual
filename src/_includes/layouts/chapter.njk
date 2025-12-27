@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+---
+
+<article class="lg:grid lg:grid-cols-[1fr_220px] lg:gap-12">
+  <div>
+    <header class="mb-8">
+      {% if chapter is defined %}
+        <p class="text-manual-500 text-sm font-mono mb-2">Chapter {{ chapter }}</p>
+      {% endif %}
+      <h1 class="text-3xl font-bold text-manual-950 mb-4">{{ title }}</h1>
+      {% if summary %}
+        <p class="text-lg text-manual-600">{{ summary }}</p>
+      {% endif %}
+    </header>
+
+    <div class="prose prose-manual max-w-none" data-pagefind-body>
+      {{ content | safe }}
+    </div>
+
+    {% include "partials/chapter-nav.njk" %}
+  </div>
+
+  <aside class="hidden lg:block">
+    {% include "partials/sidebar.njk" %}
+  </aside>
+</article>

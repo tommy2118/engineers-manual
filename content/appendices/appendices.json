@@ -1,0 +1,6 @@
+{
+  "layout": "layouts/appendix.njk",
+  "part": "appendices",
+  "partTitle": "Appendices",
+  "permalink": "/appendices/{{ page.fileSlug }}/"
+}
