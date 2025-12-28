@@ -1,17 +1,18 @@
-<nav class="sticky top-24 text-sm" aria-label="Table of contents">
-  <h2 class="font-semibold text-manual-900 mb-3">On this page</h2>
+{# Field Manual Style Sidebar TOC #}
+<nav class="sticky top-24" aria-label="Table of contents">
+  <h2 class="toc-header">In This Section</h2>
   {% set toc = content | toc %}
   {% if toc.length > 0 %}
-    <ul class="space-y-1 border-l border-manual-200 pl-4">
+    <ul class="space-y-0.5">
       {% for heading in toc %}
-        <li class="{% if heading.level == '3' %}ml-3{% endif %}">
-          <a href="#{{ heading.id }}" class="block py-1 text-manual-600 hover:text-accent transition-colors">
+        <li>
+          <a href="#{{ heading.id }}" class="toc-item {% if heading.level == '2' %}toc-item-h2{% elif heading.level == '3' %}toc-item-h3{% endif %}">
             {{ heading.text }}
           </a>
         </li>
       {% endfor %}
     </ul>
   {% else %}
-    <p class="text-manual-500 italic">No sections</p>
+    <p class="text-manual-500 text-xs italic">No sections</p>
   {% endif %}
 </nav>

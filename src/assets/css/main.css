@@ -11,26 +11,487 @@
   [id] {
     scroll-margin-top: 5rem;
   }
+
+  /* Base body styling - field manual paper feel */
+  body {
+    font-family: Charter, Georgia, Cambria, 'Times New Roman', Times, serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background-color: #f6f2e8;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.04) 2px, transparent 0),
+      linear-gradient(180deg, rgba(20, 18, 16, 0.08), rgba(20, 18, 16, 0.02));
+    background-size: 8px 8px, auto;
+  }
 }
 
 @layer components {
-  /* Quick reference cards */
-  .quick-ref-card {
-    @apply border border-manual-200 rounded-lg p-4 bg-manual-50;
+  /* ============================================
+     SHELL / PAGE LAYOUT
+     ============================================ */
+  .manual-stage {
+    background: linear-gradient(90deg, rgba(58, 54, 49, 0.08), rgba(58, 54, 49, 0));
   }
 
-  /* Callout boxes */
+  .manual-wrapper {
+    position: relative;
+  }
+
+  @media (min-width: 1024px) {
+    .manual-wrapper {
+      display: flex;
+      gap: 2.5rem;
+      align-items: stretch;
+    }
+  }
+
+  .manual-binder {
+    width: 4.5rem;
+    background: linear-gradient(145deg, #2f2b25, #171411);
+    border-radius: 1rem 0 0 1rem;
+    border: 2px solid #120f0d;
+    box-shadow: inset -6px 0 12px rgba(0, 0, 0, 0.4);
+    padding: 1.5rem 0;
+  }
+
+  .manual-ring {
+    display: block;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 999px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0.75rem auto;
+    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.45), rgba(70, 67, 63, 0.6));
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
+  }
+
+  .manual-ring:nth-child(2n) {
+    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.3), rgba(59, 56, 52, 0.7));
+  }
+
+  .manual-page {
+    @apply bg-manual-50 border border-manual-200 relative shadow-xl;
+    padding: clamp(1.75rem, 2.5vw, 3rem);
+    border-radius: 0.5rem;
+    box-shadow:
+      0 20px 45px rgba(15, 14, 12, 0.15),
+      inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  }
+
+  .manual-page::after {
+    content: '';
+    position: absolute;
+    inset: 0.75rem 0.75rem auto auto;
+    border: 1px dashed rgba(0, 0, 0, 0.04);
+    pointer-events: none;
+  }
+
+  @media (max-width: 1023px) {
+    .manual-page {
+      padding: 1.5rem;
+      border-radius: 0.375rem;
+    }
+  }
+
+  /* ============================================
+     FIELD MANUAL HEADER BLOCK
+     ============================================ */
+  .manual-header {
+    @apply border-b-2 border-manual-800 pb-4 mb-6;
+  }
+
+  .manual-header-classification {
+    @apply font-sans text-xs font-bold uppercase tracking-widest text-manual-500 mb-2;
+  }
+
+  .manual-header-chapter {
+    @apply font-sans text-sm font-bold uppercase tracking-wide text-manual-600 mb-1;
+  }
+
+  .manual-header-title {
+    @apply font-sans text-2xl font-bold uppercase tracking-wide text-manual-950 leading-tight;
+  }
+
+  .manual-header-subtitle {
+    @apply font-serif text-base text-manual-600 mt-2 italic;
+  }
+
+  /* ============================================
+     FIELD MANUAL CALLOUT BOXES
+     Military manuals use WARNING/CAUTION/NOTE
+     ============================================ */
+
+  /* WARNING - Could result in death or serious injury */
+  .callout-warning {
+    @apply border-2 border-warning-border bg-warning-bg p-4 my-6;
+  }
+
+  .callout-warning::before {
+    content: "⚠ WARNING";
+    @apply block font-sans text-sm font-bold uppercase tracking-wide text-warning-text mb-2;
+  }
+
+  /* CAUTION - Could result in damage or minor injury */
+  .callout-caution {
+    @apply border-2 border-caution-border bg-caution-bg p-4 my-6;
+  }
+
+  .callout-caution::before {
+    content: "⚠ CAUTION";
+    @apply block font-sans text-sm font-bold uppercase tracking-wide text-caution-text mb-2;
+  }
+
+  /* NOTE - Important information */
+  .callout-note {
+    @apply border-l-4 border-note-border bg-note-bg p-4 my-6;
+  }
+
+  .callout-note::before {
+    content: "NOTE";
+    @apply block font-sans text-sm font-bold uppercase tracking-wide text-note-text mb-2;
+  }
+
+  /* Generic callout (for epigraphs, key principles) */
   .callout {
-    @apply border-l-4 border-accent pl-4 py-2 my-4 bg-manual-50;
+    @apply border-l-4 border-manual-600 bg-manual-100 p-4 my-6;
   }
 
-  /* Navigation item */
+  /* ============================================
+     QUICK REFERENCE CARDS
+     ============================================ */
+  .quick-ref-card {
+    @apply border-2 border-manual-400 p-4 bg-manual-50 my-4;
+  }
+
+  .quick-ref-title {
+    @apply font-sans text-sm font-bold uppercase tracking-wide text-manual-700 border-b border-manual-300 pb-2 mb-3;
+  }
+
+  /* ============================================
+     SECTION DIVIDERS
+     ============================================ */
+  .section-divider {
+    @apply border-t border-manual-300 my-8;
+  }
+
+  .section-divider-heavy {
+    @apply border-t-2 border-manual-600 my-8;
+  }
+
+  /* ============================================
+     TOP BAR / BRANDING
+     ============================================ */
+  .manual-topbar {
+    background: linear-gradient(90deg, #151310, #201d1a 40%, #151310 100%);
+    border-bottom: 4px solid #3d3a34;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  }
+
+  .manual-topbar-inner {
+    @apply container mx-auto px-4 py-3 max-w-6xl;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1rem;
+  }
+
+  .manual-classification {
+    @apply font-sans text-[0.6rem] font-bold uppercase tracking-[0.5em] text-manual-200;
+    letter-spacing: 0.4em;
+  }
+
+  .manual-brand {
+    @apply text-manual-50 font-sans font-bold uppercase tracking-[0.35em] text-sm block;
+    letter-spacing: 0.4em;
+  }
+
+  .manual-brand:hover {
+    @apply text-manual-100;
+  }
+
+  .manual-edition {
+    @apply font-mono text-xs text-manual-400 mt-1;
+  }
+
+  .manual-topbar-actions {
+    @apply flex items-center gap-3;
+  }
+
+  .manual-topbar-meta {
+    @apply font-sans text-xs uppercase tracking-[0.3em] text-manual-400 hidden sm:inline;
+  }
+
+  .manual-search-btn {
+    @apply p-2 rounded border border-manual-700 bg-transparent text-manual-200 transition-colors;
+  }
+
+  .manual-search-btn:hover {
+    @apply bg-manual-800 text-manual-50;
+  }
+
+  /* ============================================
+     HOME COVER & GRID
+     ============================================ */
+  .manual-home {
+    @apply space-y-10;
+  }
+
+  .manual-cover {
+    @apply border border-manual-300 bg-white p-8 text-center relative overflow-hidden;
+    box-shadow: 0 25px 50px rgba(15, 14, 12, 0.15);
+  }
+
+  .manual-cover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.05), transparent 40%, rgba(0, 0, 0, 0.03));
+    pointer-events: none;
+  }
+
+  .manual-cover-band {
+    @apply inline-block font-sans text-[0.65rem] font-bold uppercase tracking-[0.3em] text-manual-500 border border-manual-400 px-4 py-1 mb-4;
+    letter-spacing: 0.4em;
+  }
+
+  .manual-cover h1 {
+    @apply font-sans text-3xl font-bold uppercase tracking-[0.3em] text-manual-950;
+    letter-spacing: 0.35em;
+  }
+
+  .manual-cover-subtitle {
+    @apply font-serif text-lg text-manual-600 mt-4 max-w-2xl mx-auto;
+  }
+
+  .manual-cover-meta {
+    @apply grid gap-4 sm:grid-cols-3 mt-6 text-left text-sm;
+  }
+
+  .manual-cover-meta div {
+    @apply border border-manual-200 bg-manual-50 p-3;
+  }
+
+  .manual-cover-meta dt {
+    @apply font-sans text-xs uppercase tracking-wide text-manual-500;
+  }
+
+  .manual-cover-meta dd {
+    @apply font-serif text-manual-800 mt-1;
+  }
+
+  .manual-cover-meta a {
+    @apply underline text-manual-700 hover:text-manual-900;
+  }
+
+  .manual-home-grid {
+    @apply grid gap-6 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)];
+  }
+
+  .manual-toc-card {
+    @apply border border-manual-300 bg-white/90 backdrop-blur-sm p-6 shadow-lg;
+  }
+
+  .manual-toc-card h2 {
+    @apply font-sans text-sm uppercase tracking-[0.3em] text-manual-600 border-b border-manual-300 pb-2 mb-4;
+  }
+
+  .manual-toc-card h3 {
+    @apply font-sans text-xs uppercase tracking-wide text-manual-500 mt-6 mb-2 pl-3 border-l-4 border-manual-400;
+  }
+
+  .manual-toc-link {
+    @apply flex gap-3 items-start border border-transparent rounded px-3 py-2 hover:border-manual-300 hover:bg-manual-100 transition;
+  }
+
+  .manual-toc-index {
+    @apply font-mono text-xs text-manual-500 pt-1;
+  }
+
+  .manual-toc-label {
+    @apply font-sans text-sm font-semibold uppercase tracking-wide text-manual-800;
+  }
+
+  .manual-toc-summary {
+    @apply text-xs text-manual-500 font-serif mt-0.5;
+  }
+
+  .manual-briefing-card {
+    @apply border border-manual-300 bg-manual-100/80 p-6 shadow-inner flex flex-col gap-4;
+  }
+
+  .manual-briefing-card h2 {
+    @apply font-sans text-xs uppercase tracking-[0.3em] text-manual-600 border-b border-manual-300 pb-2;
+  }
+
+  .manual-briefing-card ul {
+    @apply space-y-3;
+  }
+
+  .manual-briefing-card li {
+    @apply flex justify-between items-center text-sm gap-4;
+  }
+
+  .manual-briefing-card span {
+    @apply font-sans text-xs uppercase tracking-wide text-manual-600;
+  }
+
+  .manual-briefing-card code {
+    @apply font-mono text-xs bg-manual-200 px-2 py-1 border border-manual-300;
+  }
+
+  .manual-briefing-card a {
+    @apply font-sans text-xs uppercase tracking-wide text-manual-800 underline decoration-dotted;
+  }
+
+  .manual-briefing-note {
+    @apply text-xs text-manual-600 border-t border-manual-300 pt-3;
+  }
+
+  .manual-home-footer {
+    @apply text-center text-xs text-manual-500 border-t border-manual-300 pt-4;
+  }
+
+  .manual-intro blockquote {
+    @apply mt-4;
+  }
+
+  /* ============================================
+     NAVIGATION
+     ============================================ */
   .nav-item {
-    @apply block py-1 px-2 text-manual-700 hover:text-accent hover:bg-manual-100 rounded transition-colors;
+    @apply block py-1.5 px-2 font-sans text-sm text-manual-700 hover:text-manual-950 hover:bg-manual-100 border-l-2 border-transparent transition-colors;
   }
 
   .nav-item-active {
-    @apply text-accent font-medium bg-manual-100;
+    @apply text-manual-950 font-semibold bg-manual-100 border-l-2 border-manual-800;
+  }
+
+  /* Chapter navigation (prev/next) */
+  .chapter-nav {
+    @apply border-t-2 border-manual-300 mt-12 pt-6 flex justify-between;
+  }
+
+  .chapter-nav-link {
+    @apply font-sans text-sm text-manual-600 hover:text-manual-950 uppercase tracking-wide;
+  }
+
+  /* ============================================
+     TABLE OF CONTENTS STYLING
+     ============================================ */
+  .toc-header {
+    @apply font-sans text-xs font-bold uppercase tracking-widest text-manual-500 mb-3 pb-2 border-b border-manual-300;
+  }
+
+  .toc-item {
+    @apply block py-1 text-sm text-manual-600 hover:text-manual-900 border-l-2 border-transparent pl-3 -ml-[2px];
+  }
+
+  .toc-item-active {
+    @apply text-manual-900 font-medium border-l-2 border-manual-600;
+  }
+
+  .toc-item-h2 {
+    @apply font-sans text-xs uppercase tracking-wide;
+  }
+
+  .toc-item-h3 {
+    @apply pl-6 text-xs;
+  }
+
+  /* ============================================
+     MANUAL-STYLE LISTS
+     Numbered paragraph style: 1., a., (1), (a)
+     ============================================ */
+  .manual-list {
+    @apply list-none pl-0;
+    counter-reset: manual-item;
+  }
+
+  .manual-list > li {
+    @apply relative pl-8;
+    counter-increment: manual-item;
+  }
+
+  .manual-list > li::before {
+    content: counter(manual-item) ".";
+    @apply absolute left-0 font-bold text-manual-600;
+  }
+
+  /* Sub-list with letters */
+  .manual-list-alpha {
+    @apply list-none pl-8;
+    counter-reset: alpha-item;
+  }
+
+  .manual-list-alpha > li {
+    @apply relative pl-6;
+    counter-increment: alpha-item;
+  }
+
+  .manual-list-alpha > li::before {
+    content: counter(alpha-item, lower-alpha) ".";
+    @apply absolute left-0 font-bold text-manual-600;
+  }
+
+  /* ============================================
+     FIELD MANUAL FOOTER
+     ============================================ */
+  .manual-footer {
+    @apply border-t-2 border-manual-300 mt-16 pt-6 text-center;
+  }
+
+  .manual-footer-text {
+    @apply font-sans text-xs uppercase tracking-widest text-manual-400;
+  }
+
+  /* ============================================
+     PARAGRAPH NUMBERING (for numbered sections)
+     ============================================ */
+  .numbered-section {
+    counter-reset: section;
+  }
+
+  .numbered-section > h2 {
+    counter-increment: section;
+  }
+
+  .numbered-section > h2::before {
+    content: counter(section) ". ";
+    @apply font-bold;
+  }
+
+  /* ============================================
+     STRIKETHROUGH / CHANGE BARS
+     For marking revisions in the manual style
+     ============================================ */
+  .change-bar {
+    @apply border-l-4 border-manual-800 pl-4 -ml-4;
+  }
+
+  /* ============================================
+     UTILITY CLASSES
+     ============================================ */
+  .font-manual-sans {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  .font-manual-serif {
+    font-family: Charter, Georgia, Cambria, 'Times New Roman', Times, serif;
+  }
+
+  .font-manual-mono {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .uppercase-spaced {
+    @apply uppercase tracking-wide;
+  }
+
+  .uppercase-wide {
+    @apply uppercase tracking-widest;
   }
 }
 
@@ -39,6 +500,26 @@
   @media print {
     .no-print {
       display: none !important;
+    }
+
+    /* Ensure good print output */
+    body {
+      font-size: 11pt;
+      line-height: 1.5;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    h1, h2, h3 {
+      page-break-after: avoid;
+    }
+
+    .callout-warning,
+    .callout-caution,
+    .callout-note {
+      page-break-inside: avoid;
     }
   }
 }

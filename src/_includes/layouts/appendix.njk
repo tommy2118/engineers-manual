@@ -2,18 +2,21 @@
 layout: layouts/base.njk
 ---
 
-<article class="lg:grid lg:grid-cols-[1fr_220px] lg:gap-12">
+<article class="lg:grid lg:grid-cols-[1fr_200px] lg:gap-16">
   <div>
-    <header class="mb-8">
-      <p class="text-manual-500 text-sm font-mono mb-2">Appendix</p>
-      <h1 class="text-3xl font-bold text-manual-950 mb-4">{{ title }}</h1>
+    {# Field Manual Style Appendix Header #}
+    <header class="manual-header">
+      <p class="manual-header-chapter">Appendix</p>
+      <h1 class="manual-header-title">{{ title }}</h1>
     </header>
 
+    {# Appendix Content #}
     <div class="prose prose-manual max-w-none" data-pagefind-body>
       {{ content | safe }}
     </div>
   </div>
 
+  {# Sidebar - On-Page TOC #}
   <aside class="hidden lg:block">
     {% include "partials/sidebar.njk" %}
   </aside>

@@ -2,25 +2,29 @@
 layout: layouts/base.njk
 ---
 
-<article class="lg:grid lg:grid-cols-[1fr_220px] lg:gap-12">
+<article class="lg:grid lg:grid-cols-[1fr_200px] lg:gap-16">
   <div>
-    <header class="mb-8">
+    {# Field Manual Style Header #}
+    <header class="manual-header">
       {% if chapter is defined %}
-        <p class="text-manual-500 text-sm font-mono mb-2">Chapter {{ chapter }}</p>
+        <p class="manual-header-chapter">Chapter {{ chapter }}</p>
       {% endif %}
-      <h1 class="text-3xl font-bold text-manual-950 mb-4">{{ title }}</h1>
+      <h1 class="manual-header-title">{{ title }}</h1>
       {% if summary %}
-        <p class="text-lg text-manual-600">{{ summary }}</p>
+        <p class="manual-header-subtitle">{{ summary }}</p>
       {% endif %}
     </header>
 
+    {# Chapter Content #}
     <div class="prose prose-manual max-w-none" data-pagefind-body>
       {{ content | safe }}
     </div>
 
+    {# Chapter Navigation #}
     {% include "partials/chapter-nav.njk" %}
   </div>
 
+  {# Sidebar - On-Page TOC #}
   <aside class="hidden lg:block">
     {% include "partials/sidebar.njk" %}
   </aside>
