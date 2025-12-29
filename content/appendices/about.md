@@ -12,17 +12,17 @@ type: reference
 
 A field manual for software engineers. Practical, reference-oriented, available when you need it.
 
-The frameworks here—P-Cubed, Levels of Work, Architecture vs. Design—emerged from real projects, real failures, and the pattern recognition that comes from solving problems across different domains. They're not theory. They're tools that work.
+The frameworks here (P-Cubed, Levels of Work, Architecture vs. Design) emerged from real projects, real failures, and the pattern recognition that comes from solving problems across different domains. They're not theory. They're tools that work.
 
 ---
 
 ## What Informs It
 
-- **The canon** — Sandi Metz, Kent Beck, the GOOS authors, Martin Fowler, John Ousterhout. The reading list in The Canon appendix represents books worth your time.
+- **The canon:** Sandi Metz, Kent Beck, the GOOS authors, Martin Fowler, John Ousterhout. The reading list in The Canon appendix represents books worth your time.
 
-- **Mistakes made** — Every framework here came from getting it wrong first. Shipping too fast, shipping too slow, building the wrong abstraction, skipping the spike.
+- **Mistakes made:** Every framework here came from getting it wrong first. Shipping too fast, shipping too slow, building the wrong abstraction, skipping the spike.
 
-- **Military discipline** — Twenty years in the Air Force before software. The principles transfer: master your gear, train how you fight, you fall to your training.
+- **Military discipline:** Twenty years in the Air Force before software. The principles transfer: master your gear, train how you fight, you fall to your training.
 
 ---
 

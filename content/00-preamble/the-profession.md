@@ -109,7 +109,7 @@ Professionals:
 - **Uphold standards.** Even when the client/boss/deadline says otherwise.
 - **Say no when necessary.** "I can't ship that with confidence" is a complete sentence.
 
-[^6]: Proverbs 27:17 — "As iron sharpens iron, so one person sharpens another."
+[^6]: Proverbs 27:17, "As iron sharpens iron, so one person sharpens another."
 
 Professionals don't hide behind "I was just following orders" or "That's how we've always done it" or "The PM said it was fine." You're the engineer. You own the technical decision.
 

@@ -123,7 +123,7 @@ Building from scratch feels productive. It usually isn't. You're trading known s
 
 Every line of code you write sits on top of millions of lines written by others.[^1] Languages. Compilers. Operating systems. Networks. Protocols. Libraries.
 
-[^1]: "If I have seen further, it is by standing on the shoulders of giants." — Isaac Newton, letter to Robert Hooke, 1675.
+[^1]: "If I have seen further, it is by standing on the shoulders of giants," Isaac Newton, letter to Robert Hooke, 1675.
 
 You didn't invent any of it. You don't have to.
 

@@ -1,4 +1,4 @@
-# CLAUDE.md — The Engineer's Manual
+# CLAUDE.md -  The Engineer's Manual
 
 > Context document for AI pairing. Read this first.
 
@@ -12,7 +12,7 @@
 
 **Tone:** The voice in your ear. Bullets flying, ammo is low. Night is coming. You need an answer. Grab the manual.
 
-**Inspiration:** The USAF Airman's Manual — spiral-bound, fits in your cargo pocket, answers the questions a deployed Airman actually has.
+**Inspiration:** The USAF Airman's Manual -  spiral-bound, fits in your cargo pocket, answers the questions a deployed Airman actually has.
 
 **Author:** Tommy A. Caruso Sr.
 
@@ -92,24 +92,24 @@ These inform the content and structure of the manual:
 ### Design Principles (Steve Schoger / Refactoring UI)
 
 - **Hierarchy through spacing and typography**, not just color
-- **Make it obvious, not clever** — this is a reference tool
-- **Readability and scannability** — people grab this under pressure
-- **Limit color palette** — use sparingly for emphasis
-- **Generous whitespace** — let content breathe
-- **Strong visual hierarchy** — clear distinction between levels
-- **Mobile-first** — accessible anywhere
+- **Make it obvious, not clever** -  this is a reference tool
+- **Readability and scannability** -  people grab this under pressure
+- **Limit color palette** -  use sparingly for emphasis
+- **Generous whitespace** -  let content breathe
+- **Strong visual hierarchy** -  clear distinction between levels
+- **Mobile-first** -  accessible anywhere
 
 ### UX/UI Requirements
 
 This is a **reference tool**. Design for:
 
-1. **Quick lookup** — find what you need fast
-2. **Scannable structure** — headers, bullets, tables work
-3. **Progressive disclosure** — summary first, details available
-4. **Offline-capable** (future) — PWA consideration
-5. **Searchable** — find by keyword
-6. **Bookmarkable** — deep links to sections
-7. **Print-friendly** (future) — actual manual output
+1. **Quick lookup** -  find what you need fast
+2. **Scannable structure** -  headers, bullets, tables work
+3. **Progressive disclosure** -  summary first, details available
+4. **Offline-capable** (future) -  PWA consideration
+5. **Searchable** -  find by keyword
+6. **Bookmarkable** -  deep links to sections
+7. **Print-friendly** (future) -  actual manual output
 
 ### Aesthetic
 
@@ -344,11 +344,11 @@ Before shipping:
 
 ## Resources
 
-- [Refactoring UI](https://www.refactoringui.com/) — Schoger's design principles
+- [Refactoring UI](https://www.refactoringui.com/) -  Schoger's design principles
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Eleventy](https://www.11ty.dev/)
 - [GitHub Pages](https://pages.github.com/)
-- [Pagefind](https://pagefind.app/) — Static search
+- [Pagefind](https://pagefind.app/) -  Static search
 
 ---
 

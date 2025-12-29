@@ -43,7 +43,7 @@ This is your primary weapon. You'll spend more time here than anywhere else.
 
 **Pick one. Master it.**[^1] VS Code, Vim, Emacs, RubyMine; it doesn't matter which. What matters is you're not fumbling when you need to move fast.
 
-[^1]: "Use a Single Editor Well" — Tip #22 from Hunt & Thomas, *The Pragmatic Programmer* (1999).
+[^1]: "Use a Single Editor Well," Tip #22 from Hunt & Thomas, *The Pragmatic Programmer* (1999).
 
 If you're reaching for the mouse for common operations, you're not there yet.
 
@@ -119,7 +119,7 @@ When it's slow, don't guess. Measure.
 
 **The profiler tells the truth.** Your intuition about performance is usually wrong.[^2] Measure first. Optimize second.
 
-[^2]: "Programmers waste enormous amounts of time thinking about... the speed of noncritical parts of their programs." — Donald Knuth, "Structured Programming with go to Statements" (1974). Often paraphrased as "premature optimization is the root of all evil."
+[^2]: "Programmers waste enormous amounts of time thinking about... the speed of noncritical parts of their programs," Donald Knuth, "Structured Programming with go to Statements" (1974). Often paraphrased as "premature optimization is the root of all evil."
 
 ### Version Control (Git)
 

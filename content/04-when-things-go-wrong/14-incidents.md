@@ -344,7 +344,7 @@ Calm is contagious. So is panic.
 
 If you stay calm, others will too. If you panic, the incident gets worse.
 
-The military drills this relentlessly. Emergency procedures, response protocols, communication standards—all practiced until they're automatic. Not because anyone enjoys repetition, but because in an actual emergency, you won't have time to think. You'll do whatever you've done a hundred times in training. The purpose of drilling is to make the right response feel boring. When the actual crisis hits, you execute the same steps you've executed in every drill. Nothing special. Just the process.
+The military drills this relentlessly. Emergency procedures, response protocols, communication standards: all practiced until they're automatic. Not because anyone enjoys repetition, but because in an actual emergency, you won't have time to think. You'll do whatever you've done a hundred times in training. The purpose of drilling is to make the right response feel boring. When the actual crisis hits, you execute the same steps you've executed in every drill. Nothing special. Just the process.
 
 **Breathe.** Slow down. Think before you act.
 

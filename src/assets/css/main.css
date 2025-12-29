@@ -308,7 +308,7 @@
   }
 
   .manual-toc-desc::before {
-    content: "— ";
+    content: " - ";
   }
 
   .manual-home-footer {
