@@ -127,7 +127,9 @@ A specific action. 1-2 days of focused work. Clear acceptance criteria. This is 
 - Ship it
 - Move to the next Task
 
-**The trap:** Gold-plating. Tasks are small. Do the thing and move on. If you find yourself expanding scope, you've discovered a new Task. Write it down and finish this one first.
+**The trap:** Gold-plating.[^1] Tasks are small. Do the thing and move on. If you find yourself expanding scope, you've discovered a new Task. Write it down and finish this one first.
+
+[^1]: "Gold-plating" is a project management anti-pattern where unnecessary features or refinements are added beyond what was requested. First formally described in software engineering literature in the 1980s.
 
 ---
 
@@ -167,7 +169,9 @@ The hierarchy isn't just for planning. It's for learning.
 
 ## Decomposition
 
-Breaking big things into small things is a skill. It's also where most planning goes wrong.
+Breaking big things into small things is a skill.[^2] It's also where most planning goes wrong.
+
+[^2]: The formal discipline of Work Breakdown Structure (WBS) dates to the U.S. Department of Defense in the 1960s, but the principle of hierarchical decomposition underlies all project management methodologies.
 
 **Good decomposition:**
 - Each piece is independently valuable (when possible)

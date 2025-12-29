@@ -124,7 +124,9 @@ If you're not sure, ask: "What's the cost if this is wrong?" High cost = prove i
 
 ### The Spike
 
-A spike is a focused experiment to validate an assumption.
+A spike is a focused experiment to validate an assumption.[^1]
+
+[^1]: The term "spike" comes from Extreme Programming (XP). Kent Beck introduced it in *Extreme Programming Explained* (1999) as a time-boxed experiment to answer a specific technical question.
 
 **What makes a good spike:**
 - Specific question to answer

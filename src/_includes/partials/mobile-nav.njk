@@ -1,0 +1,42 @@
+{# Mobile Navigation Drawer #}
+<div id="mobile-nav-backdrop" class="mobile-nav-backdrop" aria-hidden="true"></div>
+
+<nav id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Mobile navigation">
+  <div class="mobile-nav-header">
+    <span class="mobile-nav-title">Contents</span>
+    <button id="mobile-nav-close" class="mobile-nav-close" aria-label="Close navigation">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+      </svg>
+    </button>
+  </div>
+
+  <div class="mobile-nav-content">
+    {% for chapter in collections.chapters %}
+      {% if loop.first or chapter.data.part != collections.chapters[loop.index0 - 1].data.part %}
+        {% if not loop.first %}</div>{% endif %}
+        <div class="mobile-nav-section">
+          <h3 class="mobile-nav-section-title">Part {{ chapter.data.part }}: {{ chapter.data.partTitle }}</h3>
+      {% endif %}
+
+      <a href="{{ chapter.url }}"
+         class="mobile-nav-link {% if page.url == chapter.url %}active{% endif %}">
+        {{ chapter.data.title }}
+      </a>
+
+      {% if loop.last %}</div>{% endif %}
+    {% endfor %}
+
+    {% if collections.appendices.length > 0 %}
+      <div class="mobile-nav-section">
+        <h3 class="mobile-nav-section-title">Appendices</h3>
+        {% for appendix in collections.appendices %}
+          <a href="{{ appendix.url }}"
+             class="mobile-nav-link {% if page.url == appendix.url %}active{% endif %}">
+            {{ appendix.data.title }}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</nav>

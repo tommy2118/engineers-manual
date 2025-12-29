@@ -352,11 +352,13 @@ If your 7-line method is clear, testable, and any split would obscure meaning, y
 ### When Guidance Conflicts
 
 Sometimes best practices contradict:
-- "Don't repeat yourself" vs. "Duplication is better than the wrong abstraction"
+- "Don't repeat yourself" vs. "Duplication is better than the wrong abstraction"[^1]
 - "Move fast" vs. "Don't ship bugs"
 - "Keep it simple" vs. "Make it extensible"
 
 These aren't contradictions. They're tensions to balance. Context determines which way to lean.
+
+[^1]: Sandi Metz, "The Wrong Abstraction," blog post, January 2016. "Prefer duplication over the wrong abstraction."
 
 ### When to Break Rules
 

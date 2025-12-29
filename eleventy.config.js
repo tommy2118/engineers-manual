@@ -1,5 +1,6 @@
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
+import markdownItFootnote from "markdown-it-footnote";
 
 export default function(eleventyConfig) {
   // Ignore root markdown files (not content)
@@ -9,16 +10,18 @@ export default function(eleventyConfig) {
 
   // Pass through static assets
   eleventyConfig.addPassthroughCopy("public");
-  eleventyConfig.addPassthroughCopy("src/assets/js");
+  eleventyConfig.addPassthroughCopy({ "src/assets/js": "assets/js" });
 
   // Watch CSS for changes
   eleventyConfig.addWatchTarget("./src/assets/css/");
 
-  // Configure markdown with anchor links for headings
-  const md = markdownIt({ html: true }).use(markdownItAnchor, {
-    permalink: markdownItAnchor.permalink.headerLink(),
-    slugify: s => s.toLowerCase().replace(/[^\w]+/g, '-')
-  });
+  // Configure markdown with anchor links for headings and footnotes
+  const md = markdownIt({ html: true })
+    .use(markdownItAnchor, {
+      permalink: markdownItAnchor.permalink.headerLink(),
+      slugify: s => s.toLowerCase().replace(/[^\w]+/g, '-')
+    })
+    .use(markdownItFootnote);
   eleventyConfig.setLibrary("md", md);
 
   // Collection: All chapters (sorted by part, then chapter number)
@@ -45,9 +48,20 @@ export default function(eleventyConfig) {
     const regex = /<h([2-3])[^>]*id="([^"]+)"[^>]*>(.*?)<\/h\1>/g;
     let match;
     while ((match = regex.exec(content)) !== null) {
-      // Strip anchor links from heading text
-      const text = match[3].replace(/<a[^>]*>.*?<\/a>/g, '').trim();
-      headings.push({ level: match[1], id: match[2], text });
+      // Extract text - it might be inside an anchor tag
+      let text = match[3];
+      // If the content is wrapped in an anchor, extract the text from inside it
+      const anchorMatch = text.match(/<a[^>]*>([^<]*)<\/a>/);
+      if (anchorMatch) {
+        text = anchorMatch[1];
+      } else {
+        // Strip any other HTML tags
+        text = text.replace(/<[^>]*>/g, '');
+      }
+      text = text.trim();
+      if (text) {
+        headings.push({ level: match[1], id: match[2], text });
+      }
     }
     return headings;
   });

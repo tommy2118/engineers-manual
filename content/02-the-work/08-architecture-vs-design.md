@@ -82,6 +82,8 @@ The phrase "best practice" implies a right answer that applies universally. Arch
 
 Architecture isn't about finding the right answer. It's about **choosing the tradeoffs you can live with.**
 
+I learned this as a recruiter before I ever wrote code. Matching a candidate to a role isn't finding the perfect fit—it's choosing which constraints matter most. This candidate has the aptitude but not the timeline. That one has the timeline but needs a waiver. The unit needs the slot filled by end of fiscal year, but the candidate needs six months to finish their degree. There's no right answer. There's only: given these constraints, which tradeoffs can we live with? The pattern transferred directly to software architecture.
+
 Anyone who tells you there's a "best practice" for your architecture either doesn't understand your constraints or is selling something.
 
 ---
@@ -144,7 +146,9 @@ When you're making an architectural decision, have this conversation:
 
 ## Reversible vs. Irreversible
 
-A useful mental model: **reversible vs. irreversible decisions.**
+A useful mental model: **reversible vs. irreversible decisions.**[^1]
+
+[^1]: Jeff Bezos popularized this as "one-way door vs. two-way door" decisions in his 2015 Amazon shareholder letter. Two-way doors (reversible) should be made quickly by individuals; one-way doors (irreversible) deserve careful deliberation.
 
 **Reversible:** You can undo it. Change your mind. Try something else. These should be made quickly. Speed matters more than perfection.
 
@@ -162,7 +166,9 @@ That answer tells you how much investment the decision deserves.
 
 Write it down. Not a novel, a record.
 
-**Architecture Decision Record (ADR):**
+**Architecture Decision Record (ADR):**[^2]
+
+[^2]: ADRs were formalized by Michael Nygard in his blog post "Documenting Architecture Decisions" (2011). The format captures context, decision, and consequences in a lightweight, sustainable way.
 - **Context:** What situation are we in?
 - **Options considered:** What were the alternatives?
 - **Decision:** What did we choose?

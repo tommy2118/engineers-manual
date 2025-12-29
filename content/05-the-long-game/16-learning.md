@@ -20,7 +20,9 @@ The engineers who stay relevant for thirty years aren't the ones who memorized e
 
 ## Building Mental Models
 
-A mental model is your internal representation of how something works. It's the simplified picture in your head that lets you predict behavior, reason about systems, and solve problems.
+A mental model is your internal representation of how something works.[^1] It's the simplified picture in your head that lets you predict behavior, reason about systems, and solve problems.
+
+[^1]: Charlie Munger popularized mental models as a framework for thinking in *Poor Charlie's Almanack* (2005). The idea draws from cognitive science research on how experts develop chunked knowledge structures that enable rapid pattern recognition.
 
 ### Why Mental Models Matter
 
@@ -152,7 +154,9 @@ The framework will be obsolete in five years. The fundamentals will still apply 
 
 **Breadth:** Familiarity with many areas. The ability to recognize when a problem connects to something you've seen before.
 
-Both matter. The ideal is T-shaped: deep in some areas, broad awareness across many.
+Both matter. The ideal is T-shaped:[^2] deep in some areas, broad awareness across many.
+
+[^2]: The "T-shaped" skills concept was coined by David Guest in 1991 and popularized by IDEO's Tim Brown. The vertical bar represents depth of expertise; the horizontal bar represents breadth of collaboration and knowledge.
 
 **Early career:** Focus on depth first. Get really good at something. Build a foundation.
 

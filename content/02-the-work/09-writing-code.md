@@ -20,9 +20,11 @@ The masters have already figured this out. Metz. Beck. Fowler. Freeman and Pryce
 
 ## Test-Driven Development
 
-Write the test first. Then write the code to make it pass. Then clean up.
+Write the test first. Then write the code to make it pass. Then clean up.[^1]
 
 **Red → Green → Refactor.**
+
+[^1]: Kent Beck formalized TDD in *Test Driven Development: By Example* (2002). The Red-Green-Refactor cycle is the heartbeat of the practice.
 
 This isn't bureaucracy. It's a discipline that produces better code and fewer bugs.
 
@@ -50,7 +52,9 @@ The cycle should be fast. Minutes, not hours. If you're spending an hour in Red,
 
 ### Outside-In TDD (GOOS Style)
 
-Start from user-facing behavior. Work inward to collaborators.
+Start from user-facing behavior. Work inward to collaborators.[^2]
+
+[^2]: Steve Freeman and Nat Pryce, *Growing Object-Oriented Software, Guided by Tests* (2009). The "London School" or "mockist" approach to TDD that emphasizes designing object interactions through tests.
 
 **The process:**
 1. Write an acceptance test that describes the feature from the outside
@@ -80,7 +84,9 @@ This style uses mocks and stubs to define interfaces before implementations exis
 
 ## Sandi Metz's Rules
 
-These rules come from decades of experience. They're not arbitrary; they're guidelines for code that stays maintainable.
+These rules come from decades of experience.[^3] They're not arbitrary; they're guidelines for code that stays maintainable.
+
+[^3]: Sandi Metz introduced these rules at the 2013 Baruco conference and elaborated on them in *Practical Object-Oriented Design in Ruby* (2012, 2018). Originally for Ruby, the principles apply across languages.
 
 ### The Rules
 
@@ -113,7 +119,9 @@ The rules create pressure toward better design. Use the pressure.
 
 ## Kent Beck's Simple Design
 
-Four rules, in priority order:
+Four rules, in priority order:[^4]
+
+[^4]: Kent Beck, *Extreme Programming Explained* (1999). These four rules, in priority order, define what "simple" means in software design.
 
 1. **Passes the tests.** It works. This is non-negotiable.
 2. **Reveals intention.** Someone reading it understands what it does.
@@ -130,9 +138,11 @@ Changing code structure without changing behavior.
 
 ### Beck's Approach
 
-**"Make the change easy, then make the easy change."**
+**"Make the change easy, then make the easy change."**[^5]
 
-The first part is often harder. You look at the code and think "if only it was structured differently, this change would be trivial." Beck says: make it structured differently first.
+[^5]: Kent Beck. This captures the refactoring-first approach: prepare the code for change before making the change.
+
+The first part is often harder.
 
 **The discipline:**
 - Small, incremental steps

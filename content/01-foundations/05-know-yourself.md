@@ -58,7 +58,9 @@ When you're excited about a solution, it feels done. It isn't. You're high on th
 
 When you're uncertain about a solution, it feels not done. It might be. Uncertainty is not evidence of incompleteness. Sometimes the uncertainty is just... uncertainty.
 
-**The fix:** Define done before you start. Write it down. One sentence. "This is done when ___."
+**The fix:** Define done before you start.[^1] Write it down. One sentence. "This is done when ___."
+
+[^1]: Goal-setting research consistently shows that specific, written goals improve completion rates. See Edwin Locke and Gary Latham's goal-setting theory, foundational work in *A Theory of Goal Setting & Task Performance* (1990).
 
 Then check the criteria, not your feelings. Does it meet the criteria? Ship it. Does it not? Keep working. Your feelings are not invited to this decision.
 

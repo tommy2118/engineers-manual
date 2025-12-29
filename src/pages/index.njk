@@ -5,95 +5,55 @@ permalink: /
 ---
 
 <div class="manual-home">
-  <section class="manual-cover">
-    <div class="manual-cover-band">Field Reference</div>
-    <h1>{{ site.title }}</h1>
-    <p class="manual-cover-subtitle">{{ site.description }}</p>
-    <dl class="manual-cover-meta">
-      <div>
-        <dt>Volume</dt>
-        <dd>{{ site.subtitle }}</dd>
-      </div>
-      <div>
-        <dt>Author</dt>
-        <dd>{{ site.author }}</dd>
-      </div>
-      <div>
-        <dt>Repository</dt>
-        <dd><a href="{{ site.repo }}" target="_blank" rel="noreferrer">View on GitHub</a></dd>
-      </div>
-    </dl>
-  </section>
+  <header class="manual-cover">
+    <div class="manual-cover-band">TEM 1-01</div>
+    <h1>The Engineer's Manual</h1>
+    <p class="manual-cover-edition">{{ site.subtitle }}</p>
+  </header>
 
-  <section class="manual-intro">
-    <blockquote class="callout text-manual-700 italic">
-      The voice in your ear. Bullets flying, ammo is low. Night is coming. You need an answer. Grab the manual.
-    </blockquote>
-  </section>
+  <nav class="manual-toc-full" aria-label="Table of contents">
+    {% for chapter in collections.chapters %}
+      {% if loop.first or chapter.data.part != collections.chapters[loop.index0 - 1].data.part %}
+        {% if not loop.first %}</ul></section>{% endif %}
+        <section class="manual-toc-part">
+          <h2>Part {{ chapter.data.part }}: {{ chapter.data.partTitle }}</h2>
+          <ul>
+      {% endif %}
+      <li>
+        <a href="{{ chapter.url }}" class="manual-toc-link">
+          <span class="manual-toc-num">{{ chapter.data.chapter }}</span>
+          <span class="manual-toc-title">{{ chapter.data.title }}</span>
+          {% if chapter.data.summary %}
+            <span class="manual-toc-desc">{{ chapter.data.summary }}</span>
+          {% endif %}
+        </a>
+      </li>
+      {% if loop.last %}</ul></section>{% endif %}
+    {% endfor %}
 
-  <section class="manual-home-grid">
-    <nav class="manual-toc-card">
-      <h2>Contents</h2>
-
-      {% for chapter in collections.chapters %}
-        {% if loop.first or chapter.data.part != collections.chapters[loop.index0 - 1].data.part %}
-          {% if not loop.first %}</ul>{% endif %}
-          <h3>Part {{ chapter.data.part }}: {{ chapter.data.partTitle }}</h3>
-          <ul class="space-y-1">
-        {% endif %}
-        <li>
-          <a href="{{ chapter.url }}" class="manual-toc-link">
-            <span class="manual-toc-index">{{ chapter.data.chapter }}.</span>
-            <div>
-              <span class="manual-toc-label">{{ chapter.data.title }}</span>
-              {% if chapter.data.summary %}
-                <p class="manual-toc-summary">{{ chapter.data.summary }}</p>
-              {% endif %}
-            </div>
-          </a>
-        </li>
-        {% if loop.last %}</ul>{% endif %}
-      {% endfor %}
-
-      {% if collections.appendices.length > 0 %}
-        <h3>Appendices</h3>
-        <ul class="space-y-1">
+    {% if collections.appendices.length > 0 %}
+      <section class="manual-toc-part">
+        <h2>Appendices</h2>
+        <ul>
           {% for appendix in collections.appendices %}
             <li>
               <a href="{{ appendix.url }}" class="manual-toc-link">
-                <span class="manual-toc-label">{{ appendix.data.title }}</span>
+                <span class="manual-toc-title">{{ appendix.data.title }}</span>
               </a>
             </li>
           {% endfor %}
         </ul>
-      {% endif %}
-    </nav>
-
-    <aside class="manual-briefing-card">
-      <h2>Orders of the Day</h2>
-      <ul>
-        <li>
-          <span>Contributor Guide</span>
-          <a href="{{ site.repo }}/blob/main/AGENTS.md" target="_blank" rel="noreferrer">Read AGENTS.md</a>
-        </li>
-        <li>
-          <span>Local Development</span>
-          <code>npm run dev</code>
-        </li>
-        <li>
-          <span>Build</span>
-          <code>npm run build</code>
-        </li>
-        <li>
-          <span>Preview</span>
-          <code>npm run preview</code>
-        </li>
-      </ul>
-      <p class="manual-briefing-note">Need context fast? Use the search button in the top bar to open the manual-wide index.</p>
-    </aside>
-  </section>
+      </section>
+    {% endif %}
+  </nav>
 
   <footer class="manual-home-footer">
-    <p>{{ site.author }}</p>
+    <p><kbd class="mod-key">Ctrl</kbd>+<kbd>K</kbd> to search</p>
   </footer>
+  <script>
+    // Show Cmd on Mac, Ctrl elsewhere
+    if (navigator.platform.indexOf('Mac') > -1) {
+      document.querySelector('.mod-key').textContent = '⌘';
+    }
+  </script>
 </div>

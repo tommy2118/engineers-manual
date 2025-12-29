@@ -1,7 +1,8 @@
 ---
 title: "The Profession"
 chapter: 0
-part: preamble
+part: 0
+partTitle: "Preamble"
 status: draft
 summary: "What it means to be an engineer"
 ---
@@ -48,22 +49,28 @@ This is why engineers can move between industries, between languages, between pa
 
 ## The Responsibility
 
-Software eats the world. That means we're building the world.
+Software eats the world.[^1] That means we're building the world.
+
+[^1]: Marc Andreessen, "Why Software Is Eating the World," *The Wall Street Journal*, August 20, 2011.
 
 The system you ship will be used by people. It will handle their data, their money, their medical records, their communications. It will succeed or fail them.
 
 The architectural decision you make today will constrain the engineers who come after you. They will inherit your tradeoffs. They will live with your shortcuts.
 
-The code you write will be read more than it's written. Someone, maybe you in six months, will need to understand it, modify it, debug it at 2 AM.
+The code you write will be read more than it's written.[^2] Someone, maybe you in six months, will need to understand it, modify it, debug it at 2 AM.
+
+[^2]: A principle emphasized throughout Robert C. Martin's *Clean Code* (2008) and Guido van Rossum's design philosophy for Python.
 
 **This is not a game.** The work matters. The craft matters.
 
 Responsibility means:
 - **Ship working software.** Not almost-working. Working.
 - **Be honest about tradeoffs.** Document what you're giving up.
-- **Leave it better than you found it.** The campsite rule applies.
+- **Leave it better than you found it.** The Boy Scout Rule applies.[^3]
 - **Think about the next person.** They're real and they'll curse or thank you.
 - **Admit what you don't know.** Pretending costs more than asking.
+
+[^3]: Robert C. Martin applied the Boy Scouts' "Leave the campground cleaner than you found it" to software in *Clean Code* (2008).
 
 ---
 
@@ -71,7 +78,9 @@ Responsibility means:
 
 Engineering is a craft. Craft requires practice, discipline, and standards.
 
-**Practice** means you don't just do the work; you reflect on it. What went well? What didn't? What will you do differently? Experience without reflection is just time spent.
+**Practice** means you don't just do the work; you reflect on it. What went well? What didn't? What will you do differently? Experience without reflection is just time spent.[^4]
+
+[^4]: Echoes John Dewey's observation: "We do not learn from experience... we learn from reflecting on experience." See also Donald Schön's *The Reflective Practitioner* (1983).
 
 **Discipline** means you do the right thing even when no one's watching. You write tests when you could skip them. You refactor when you could ship the hack. You document when you could leave it implicit. Not because someone's checking. Because that's the standard.
 
@@ -83,7 +92,9 @@ A craftsperson knows:
 - The difference between done and perfect
 - When to invest in polish and when to ship
 - How to make tradeoffs without making excuses
-- That the best code is no code at all
+- That the best code is no code at all[^5]
+
+[^5]: Jeff Atwood, "The Best Code is No Code At All," *Coding Horror*, May 30, 2007.
 
 ---
 
@@ -94,9 +105,11 @@ A job is what you do for money. A profession is what you are.
 Professionals:
 - **Own their development.** No one else is responsible for your growth.
 - **Maintain their tools.** Your skills rust if you don't use them.
-- **Build their network.** Steel sharpens steel.
+- **Build their network.** Steel sharpens steel.[^6]
 - **Uphold standards.** Even when the client/boss/deadline says otherwise.
 - **Say no when necessary.** "I can't ship that with confidence" is a complete sentence.
+
+[^6]: Proverbs 27:17 — "As iron sharpens iron, so one person sharpens another."
 
 Professionals don't hide behind "I was just following orders" or "That's how we've always done it" or "The PM said it was fine." You're the engineer. You own the technical decision.
 

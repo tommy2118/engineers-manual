@@ -1,12 +1,14 @@
 {# Field Manual Style Sidebar TOC #}
-<nav class="sticky top-24" aria-label="Table of contents">
+<nav class="sticky top-24 max-h-[calc(100vh-8rem)] overflow-y-auto" aria-label="Table of contents" id="sidebar-toc">
   <h2 class="toc-header">In This Section</h2>
   {% set toc = content | toc %}
   {% if toc.length > 0 %}
     <ul class="space-y-0.5">
       {% for heading in toc %}
         <li>
-          <a href="#{{ heading.id }}" class="toc-item {% if heading.level == '2' %}toc-item-h2{% elif heading.level == '3' %}toc-item-h3{% endif %}">
+          <a href="#{{ heading.id }}"
+             class="toc-item {% if heading.level == '2' %}toc-item-h2{% elif heading.level == '3' %}toc-item-h3{% endif %}"
+             data-toc-link="{{ heading.id }}">
             {{ heading.text }}
           </a>
         </li>

@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 
-<article class="lg:grid lg:grid-cols-[1fr_200px] lg:gap-16">
+<article class="md:grid md:grid-cols-[1fr_200px] md:gap-8 lg:grid-cols-[1fr_220px] lg:gap-12">
   <div>
     {# Field Manual Style Header #}
     <header class="manual-header">
@@ -15,6 +15,21 @@ layout: layouts/base.njk
       {% endif %}
     </header>
 
+    {# Mobile TOC - Collapsible (visible only on small screens) #}
+    {% set toc = content | toc %}
+    {% if toc.length > 0 %}
+      <details class="mobile-toc md:hidden">
+        <summary>On this page</summary>
+        <nav class="mobile-toc-list" aria-label="Page contents">
+          {% for heading in toc %}
+            <a href="#{{ heading.id }}" class="{% if heading.level == '3' %}pl-4{% endif %}">
+              {{ heading.text }}
+            </a>
+          {% endfor %}
+        </nav>
+      </details>
+    {% endif %}
+
     {# Chapter Content #}
     <div class="prose prose-manual max-w-none" data-pagefind-body>
       {{ content | safe }}
@@ -24,8 +39,8 @@ layout: layouts/base.njk
     {% include "partials/chapter-nav.njk" %}
   </div>
 
-  {# Sidebar - On-Page TOC #}
-  <aside class="hidden lg:block">
+  {# Sidebar - On-Page TOC (visible on medium+ screens) #}
+  <aside class="hidden md:block">
     {% include "partials/sidebar.njk" %}
   </aside>
 </article>

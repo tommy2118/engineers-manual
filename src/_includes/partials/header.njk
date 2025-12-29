@@ -2,11 +2,12 @@
 <header class="manual-topbar">
   <nav class="manual-topbar-inner">
     <div>
-      <p class="manual-classification">UNCLASSIFIED</p>
+      <p class="manual-classification hidden sm:block">UNCLASSIFIED</p>
       <a href="/" class="manual-brand" aria-label="Return to manual cover">
-        {{ site.title }}
+        <span class="hidden sm:inline">{{ site.title }}</span>
+        <span class="sm:hidden">TEM</span>
       </a>
-      <p class="manual-edition">{{ site.subtitle }}</p>
+      <p class="manual-edition hidden md:block">{{ site.subtitle }}</p>
     </div>
 
     <div class="manual-topbar-actions">
@@ -16,7 +17,13 @@
         </svg>
         <span class="sr-only">Search</span>
       </button>
-      <span class="manual-topbar-meta">Field Reference</span>
+      <span class="manual-topbar-meta hidden lg:inline">Field Reference</span>
+      {# Mobile menu toggle #}
+      <button id="mobile-nav-toggle" class="mobile-nav-toggle" aria-label="Open navigation menu" aria-expanded="false">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
     </div>
   </nav>
 </header>

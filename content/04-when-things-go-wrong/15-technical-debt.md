@@ -10,7 +10,9 @@ summary: "Recognizing it, paying it down, living with it."
 
 ## The Metaphor
 
-Ward Cunningham coined the term. Like financial debt, technical debt lets you move faster now at the cost of paying interest later.
+Ward Cunningham coined the term.[^1] Like financial debt, technical debt lets you move faster now at the cost of paying interest later.
+
+[^1]: Ward Cunningham first described the debt metaphor in his 1992 OOPSLA paper "The WyCash Portfolio Management System." He later clarified that he meant the debt of shipping code before fully understanding the domain, not the debt of writing bad code intentionally.
 
 Take out a loan to buy a house, you can move in today instead of saving for years. But you'll pay interest on that loan for decades.
 
@@ -60,12 +62,16 @@ Prudent debt is strategic. Reckless debt is just mess.
 
 ### The Quadrant
 
+Martin Fowler's technical debt quadrant[^2] classifies debt along two dimensions:
+
 |  | Deliberate | Accidental |
 |--|-----------|------------|
 | **Prudent** | "We're shipping now, we'll fix it later" | "Now we know how we should have done it" |
 | **Reckless** | "We don't have time for tests" | "What's a design pattern?" |
 
 Aim for prudent-deliberate. Learn from prudent-accidental. Avoid reckless entirely.
+
+[^2]: Martin Fowler, "Technical Debt Quadrant," blog post, October 2009. The quadrant helps distinguish between strategic debt and simple negligence.
 
 ---
 
@@ -166,7 +172,9 @@ Dedicated time to address larger debt. This requires prioritization and commitme
 
 **Debt-first features.** When building new features, budget time to clean up the areas you'll touch first.
 
-**The strangler pattern.** Build new, clean implementations alongside old ones. Gradually migrate. Eventually remove the old.
+**The strangler pattern.**[^3] Build new, clean implementations alongside old ones. Gradually migrate. Eventually remove the old.
+
+[^3]: Martin Fowler named the Strangler Fig Application pattern after the strangler fig tree, which grows around a host tree and eventually replaces it. See "Strangler Fig Application," martinfowler.com, 2004.
 
 ### Prioritizing
 

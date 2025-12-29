@@ -255,7 +255,9 @@ The incident is over. Now learn from it.
 
 ### The Blameless Post-Mortem
 
-**The goal is learning, not punishment.**
+**The goal is learning, not punishment.**[^1]
+
+[^1]: The concept of blameless post-mortems was popularized by John Allspaw at Etsy and formalized in Google's *Site Reliability Engineering* book (2016). Sidney Dekker's *The Field Guide to Understanding Human Error* (2006) provides the theoretical foundation.
 
 If people are afraid of blame, they'll hide information. They'll cover mistakes. You'll learn nothing.
 
@@ -271,7 +273,9 @@ If people are afraid of blame, they'll hide information. They'll cover mistakes.
 **Why did it happen?**
 - Root cause
 - Contributing factors
-- The "five whys"
+- The "five whys"[^2]
+
+[^2]: The Five Whys technique originated in the Toyota Production System, developed by Sakichi Toyoda. Asking "why" repeatedly (typically five times) helps move from symptoms to root causes.
 
 **How did we detect it?**
 - What alerted us
@@ -339,6 +343,8 @@ This is Chapter 4 applied to incidents.
 Calm is contagious. So is panic.
 
 If you stay calm, others will too. If you panic, the incident gets worse.
+
+The military drills this relentlessly. Emergency procedures, response protocols, communication standards—all practiced until they're automatic. Not because anyone enjoys repetition, but because in an actual emergency, you won't have time to think. You'll do whatever you've done a hundred times in training. The purpose of drilling is to make the right response feel boring. When the actual crisis hits, you execute the same steps you've executed in every drill. Nothing special. Just the process.
 
 **Breathe.** Slow down. Think before you act.
 

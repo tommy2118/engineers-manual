@@ -98,7 +98,9 @@ Getting feedback on your code can feel personal. It isn't. Learning to receive r
 
 ### The Mindset
 
-**The code is not you.** Criticism of the code is not criticism of you as a person or engineer.
+**The code is not you.**[^1] Criticism of the code is not criticism of you as a person or engineer.
+
+[^1]: Gerald Weinberg introduced "egoless programming" in *The Psychology of Computer Programming* (1971). Separating your identity from your code is foundational to receiving feedback well.
 
 **The reviewer is trying to help.** Assume good intent. They're spending their time to make your code better.
 

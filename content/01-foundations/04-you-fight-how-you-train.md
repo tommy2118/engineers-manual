@@ -62,6 +62,8 @@ It's boring. It's slow. It works.
 
 Soldiers don't train in comfortable conditions. They train in mud, in cold, in chaos. Because that's where they'll fight.
 
+I learned this leading a recruiting team in the Kentucky Air National Guard. We hit 100%+ end strength for seven consecutive fiscal years. Not because we got lucky seven times. Because we trained the fundamentals until they were automatic: lead follow-up cadence, application processing, candidate matching. When the fiscal year deadline loomed and we were short on critical AFSCs, we didn't panic and try something new. We executed the same disciplined process we'd practiced all year, just faster.
+
 If you only write clean code on greenfield projects with clear requirements, you haven't trained for the real world. The real world is legacy code, vague specs, and deadline pressure.
 
 **Realistic practice means:**
@@ -90,7 +92,9 @@ The problem isn't that shortcuts fail immediately. The problem is that they work
 
 ## Deliberate Practice
 
-Not all practice is equal. Playing a song you already know isn't practice; it's performance. Real practice is:
+Not all practice is equal.[^1] Playing a song you already know isn't practice; it's performance. Real practice is:
+
+[^1]: Anders Ericsson and Robert Pool, *Peak: Secrets from the New Science of Expertise* (2016). Ericsson's research on deliberate practice shows that expert performance comes from structured, focused practice with feedback, not just accumulated hours.
 
 1. **Focused.** You're working on something specific, not just going through the motions.
 2. **At the edge of ability.** Comfortable is too easy. Impossible is too hard. The learning zone is uncomfortable but achievable.

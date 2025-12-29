@@ -32,9 +32,11 @@ This isn't optional. It's how the profession works. The veterans who came before
 
 ### For Yourself
 
-**Deepen understanding.** Teaching forces clarity. You can't explain what you don't understand. The preparation reveals gaps in your own knowledge.
+**Deepen understanding.** Teaching forces clarity. You can't explain what you don't understand. The preparation reveals gaps in your own knowledge.[^1]
 
 **Solidify learning.** Explaining something cements it in your memory. Teaching is a form of practice.
+
+[^1]: Research consistently shows that teaching others is one of the most effective ways to learn. The "protégé effect" (Chase et al., 2009) demonstrates that students who teach material to others retain it better than those who simply study it.
 
 **Build reputation.** The engineer who teaches becomes the engineer others seek out. This compounds over a career.
 

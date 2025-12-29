@@ -142,7 +142,9 @@ Some conversations are hard. Disagreements. Bad news. Feedback. Conflict.
 
 ### The Principles
 
-**Direct is kind.** Dancing around the issue wastes time and creates confusion. Say the thing.
+**Direct is kind.**[^1] Dancing around the issue wastes time and creates confusion. Say the thing.
+
+[^1]: Kim Scott, *Radical Candor* (2017). Scott's framework argues that caring personally while challenging directly is the most effective and kind approach to feedback.
 
 **Timely is better.** Address issues when they're small. Waiting makes them bigger.
 

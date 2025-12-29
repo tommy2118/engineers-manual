@@ -41,7 +41,9 @@ This is your primary weapon. You'll spend more time here than anywhere else.
 - Debugging: Breakpoints, step through, watch expressions, conditional breaks
 - Integration: Git, terminal, test runner, linter
 
-**Pick one. Master it.** VS Code, Vim, Emacs, RubyMine; it doesn't matter which. What matters is you're not fumbling when you need to move fast.
+**Pick one. Master it.**[^1] VS Code, Vim, Emacs, RubyMine; it doesn't matter which. What matters is you're not fumbling when you need to move fast.
+
+[^1]: "Use a Single Editor Well" — Tip #22 from Hunt & Thomas, *The Pragmatic Programmer* (1999).
 
 If you're reaching for the mouse for common operations, you're not there yet.
 
@@ -115,7 +117,9 @@ When it's slow, don't guess. Measure.
 - Database: `EXPLAIN ANALYZE`, slow query logs
 - System: `htop`, `iotop`, `strace`
 
-**The profiler tells the truth.** Your intuition about performance is usually wrong. Measure first. Optimize second.
+**The profiler tells the truth.** Your intuition about performance is usually wrong.[^2] Measure first. Optimize second.
+
+[^2]: "Programmers waste enormous amounts of time thinking about... the speed of noncritical parts of their programs." — Donald Knuth, "Structured Programming with go to Statements" (1974). Often paraphrased as "premature optimization is the root of all evil."
 
 ### Version Control (Git)
 
@@ -228,9 +232,11 @@ Tools are extensions of your mind. But the mind is the weapon.
 ### Keep It Sharp
 
 **Practice deliberately:**
-- Katas and exercises: Small problems to build muscle memory
+- Katas and exercises:[^3] Small problems to build muscle memory
 - Side projects: Apply new techniques in low-stakes environments
 - Reading: The canon exists. The veterans wrote it down.
+
+[^3]: The concept of "Code Kata" was introduced by Dave Thomas (co-author of *The Pragmatic Programmer*) in 2003, drawing parallels to martial arts practice. See codekata.com.
 
 **Reflect regularly:**
 - What slowed me down today?

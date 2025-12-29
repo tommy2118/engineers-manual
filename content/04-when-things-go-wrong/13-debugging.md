@@ -16,6 +16,8 @@ That gap is the bug. Your job is to find it, understand it, and close it.
 
 Most developers debug by intuition, change things until it works. This is slow, unreliable, and doesn't teach you anything. There's a better way.
 
+I learned debugging on the flight line before I ever touched a codebase. Aircraft maintenance is troubleshooting with higher stakes: hydraulic systems, electrical faults, mechanical failures. You don't guess. You follow the technical order. You isolate the system. You test components. You verify the fix before the aircraft goes back on the line. The methodology is the same whether you're tracing hydraulic pressure or data flow. Gather information. Form hypotheses. Test. Isolate. Fix. Verify.
+
 Debugging is the scientific method applied to code.
 
 ---
@@ -131,7 +133,9 @@ But you didn't understand why the bug existed. So your fix might not actually so
 
 **Question assumptions.** What are you assuming is true? Verify each assumption. The bug often hides behind a false assumption.
 
-**Explain it to someone.** Rubber duck debugging. The act of explaining often reveals what you're missing.
+**Explain it to someone.** Rubber duck debugging.[^3] The act of explaining often reveals what you're missing.
+
+[^3]: The term comes from *The Pragmatic Programmer* (1999) by Hunt and Thomas, inspired by a story of a developer who would explain code line-by-line to a rubber duck on his desk.
 
 ---
 
@@ -331,7 +335,9 @@ Check your bounds. Carefully.
 
 ### Null/Undefined
 
-The billion-dollar mistake. Something is null that you assumed wasn't.
+The billion-dollar mistake.[^1] Something is null that you assumed wasn't.
+
+[^1]: Tony Hoare, who invented the null reference in 1965, called it his "billion-dollar mistake" in a 2009 QCon presentation: "It has led to innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years."
 
 Handle the null case or prevent it from happening.
 
@@ -351,7 +357,9 @@ Minimize mutable state. Be explicit about who can change what.
 
 The data is stale. The cache wasn't invalidated. You're looking at old information.
 
-There are only two hard problems: cache invalidation and naming things.
+There are only two hard problems: cache invalidation and naming things.[^2]
+
+[^2]: Attributed to Phil Karlton (Netscape engineer). Often extended to: "There are only two hard things in computer science: cache invalidation, naming things, and off-by-one errors."
 
 ### Environment Differences
 

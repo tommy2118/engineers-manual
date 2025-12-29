@@ -24,7 +24,11 @@ The difference is how you do it.
 
 ### Driver and Navigator
 
+The Driver/Navigator pattern[^1] divides the work:
+
 **Driver:** Hands on keyboard. Writing the code. Focused on the immediate, syntax, implementation, the line in front of you.
+
+[^1]: The Driver/Navigator metaphor for pair programming was popularized in Extreme Programming circles. Llewellyn Falco formalized "Strong-Style Pairing" which emphasizes the navigator's control: "For an idea to go from your head into the computer, it must go through someone else's hands."
 
 **Navigator:** Watching. Thinking ahead. Focused on the bigger picture, where are we going, what are we missing, what's the next step.
 
@@ -186,7 +190,9 @@ AI should accelerate you, not replace your thinking. If you're not growing as an
 
 ## Mob Programming
 
-More than two people. One keyboard. The whole team.
+More than two people. One keyboard. The whole team.[^2]
+
+[^2]: Mob Programming was developed by Woody Zuill and his team at Hunter Industries around 2011. The practice takes pair programming to the team level: "All the brilliant minds working on the same thing, at the same time, in the same space, on the same computer."
 
 **When it works:**
 - Critical design decisions

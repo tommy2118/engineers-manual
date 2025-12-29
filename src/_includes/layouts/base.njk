@@ -8,17 +8,28 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
   <link rel="icon" href="/favicon.ico">
+
+  {# Google Analytics 4 #}
+  {% if site.googleAnalyticsId %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.googleAnalyticsId }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.googleAnalyticsId }}');
+  </script>
+  {% endif %}
 </head>
 <body class="manual-body text-manual-800 min-h-screen flex flex-col font-serif">
+  {# Reading Progress Bar #}
+  <div id="reading-progress" class="reading-progress"></div>
+
   {% include "partials/header.njk" %}
+  {% include "partials/mobile-nav.njk" %}
 
   <main class="flex-1 manual-stage px-4 py-8 lg:py-12">
-    <div class="manual-wrapper mx-auto max-w-6xl lg:flex lg:gap-8">
-      <div class="manual-binder hidden lg:flex flex-col justify-around" aria-hidden="true">
-        {% for _ in [1,2,3,4] %}
-          <span class="manual-ring"></span>
-        {% endfor %}
-      </div>
+    <div class="manual-wrapper mx-auto max-w-6xl">
+      <div class="manual-binder" aria-hidden="true"></div>
       <div class="manual-page w-full">
         {{ content | safe }}
       </div>
