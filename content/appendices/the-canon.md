@@ -30,74 +30,80 @@ These shaped how we think about software. Read them. Re-read them.
 
 ### Design & Architecture
 
-**_Practical Object-Oriented Design in Ruby_ by Sandi Metz**
+**_Practical Object-Oriented Design in Ruby_ by Sandi Metz (2012, 2nd ed. 2018)**
 The clearest articulation of OO design principles. Language is Ruby, lessons are universal. Where "Sandi Metz's Rules" come from. Read this first if you write OO code.
 
-**_A Philosophy of Software Design_ by John Ousterhout**
+**_A Philosophy of Software Design_ by John Ousterhout (2018)**
 Complexity is the enemy. Deep modules beat shallow ones. Strategic vs. tactical programming. Short, opinionated, worth revisiting yearly.
 
-**_Design Patterns_ by Gang of Four**
+**_Design Patterns_ by Gang of Four (1994)**
 The shared vocabulary. You don't use all of them. You need to recognize all of them. Reference, not cover-to-cover.
 
-**_Domain-Driven Design_ by Eric Evans**
+**_Domain-Driven Design_ by Eric Evans (2003)**
 For complex domains. Ubiquitous language. Bounded contexts. Aggregates. Heavy but essential when the domain is the hard part.
 
 ### Testing
 
-**_Test Driven Development: By Example_ by Kent Beck**
+**_Test Driven Development: By Example_ by Kent Beck (2002)**
 The original. Red-Green-Refactor. Money example is worth working through by hand.
 
-**_Growing Object-Oriented Software, Guided by Tests_ by Freeman & Pryce (GOOS)**
+**_Growing Object-Oriented Software, Guided by Tests_ by Freeman & Pryce (2009)**
 Outside-in TDD. Mockist style. Start from the user-facing behavior, work inward. The walking skeleton. This is how we test.
 
-**_xUnit Test Patterns_ by Gerard Meszaros**
+**_xUnit Test Patterns_ by Gerard Meszaros (2007)**
 Reference for test smells and patterns. Consult when tests become painful.
 
 ### Refactoring
 
-**_Refactoring_ by Martin Fowler**
+**_Refactoring_ by Martin Fowler (1999, 2nd ed. 2018)**
 The catalog of refactorings. Name the moves. Small steps. Keep tests green. The discipline.
 
-**_Working Effectively with Legacy Code_ by Michael Feathers**
+**_Working Effectively with Legacy Code_ by Michael Feathers (2004)**
 When you inherit a mess. Characterization tests. Seams. How to get legacy code under test. Essential for real-world work.
 
 ### Software Engineering
 
-**_The Pragmatic Programmer_ by Hunt & Thomas**
+**_The Pragmatic Programmer_ by Hunt & Thomas (1999, 2nd ed. 2019)**
 Foundational mindset. DRY. Orthogonality. Tracer bullets. Good defaults for how to think.
 
-**_Clean Code_ by Robert Martin**
+**_Clean Code_ by Robert Martin (2008)**
 Contentious but useful. Take the naming and function size lessons. Leave the dogma.
 
-**_Code Complete_ by Steve McConnell**
+**_Code Complete_ by Steve McConnell (1993, 2nd ed. 2004)**
 Comprehensive. Dense. Construction-focused. Reference when you want the thorough answer.
 
 ### Systems & Scale
 
-**_Designing Data-Intensive Applications_ by Martin Kleppmann**
+**_Designing Data-Intensive Applications_ by Martin Kleppmann (2017)**
 The modern systems book. Replication. Partitioning. Consistency. Stream processing. Required reading for backend engineers.
 
-**_Release It!_ by Michael Nygard**
+**_Release It!_ by Michael Nygard (2007, 2nd ed. 2018)**
 Stability patterns. Bulkheads. Circuit breakers. Timeouts. How to build systems that survive production.
 
-**_Site Reliability Engineering_ by Google**
+**_Site Reliability Engineering_ by Google (2016)**
 SRE philosophy. Error budgets. Toil. Postmortems. The operational mindset.
 
 ### Process & Teams
 
-**_Extreme Programming Explained_ by Kent Beck**
+**_Extreme Programming Explained_ by Kent Beck (1999, 2nd ed. 2004)**
 The XP values and practices. Pair programming. Continuous integration. Small releases. The source.
 
-**_Accelerate_ by Forsgren, Humble, Kim**
+**_Accelerate_ by Forsgren, Humble, Kim (2018)**
 The data on what makes teams effective. Lead time. Deployment frequency. Change failure rate. MTTR. Cite this when justifying practices.
 
-**_The Phoenix Project_ by Kim, Behr, Spafford**
+**_The Phoenix Project_ by Kim, Behr, Spafford (2013)**
 DevOps as narrative. The Three Ways. Good for convincing non-engineers.
 
 ### Design (Visual)
 
-**_Refactoring UI_ by Adam Wathan & Steve Schoger**
+**_Refactoring UI_ by Adam Wathan & Steve Schoger (2018)**
 Practical visual design for developers. Hierarchy. Spacing. Typography. The cheat codes.
+
+**_Don't Make Me Think_ by Steve Krug (2000, 3rd ed. 2014)**
+Web usability fundamentals. Short, accessible, timeless. The first UX book every developer should read.
+
+**_The Design of Everyday Things_ by Don Norman (1988, revised 2013)**
+Foundational design thinking. Affordances, signifiers, feedback. Why doors confuse people. Shapes how you think about user interfaces.
 
 ---
 
@@ -622,15 +628,15 @@ Quick reference for terms used consistently:
 
 If you're starting from zero:
 
-1. _Practical Object-Oriented Design in Ruby_ by Sandi Metz
-2. _Test Driven Development: By Example_ by Kent Beck
-3. _Refactoring_ by Martin Fowler
-4. _Growing Object-Oriented Software, Guided by Tests_ by Freeman & Pryce
-5. _A Philosophy of Software Design_ by John Ousterhout
-6. _The Pragmatic Programmer_ by Hunt & Thomas
-7. _Designing Data-Intensive Applications_ by Martin Kleppmann
-8. _Working Effectively with Legacy Code_ by Michael Feathers
-9. _Release It!_ by Michael Nygard
+1. _Practical Object-Oriented Design in Ruby_ by Sandi Metz (2018)
+2. _Test Driven Development: By Example_ by Kent Beck (2002)
+3. _Refactoring_ by Martin Fowler (2018)
+4. _Growing Object-Oriented Software, Guided by Tests_ by Freeman & Pryce (2009)
+5. _A Philosophy of Software Design_ by John Ousterhout (2018)
+6. _The Pragmatic Programmer_ by Hunt & Thomas (2019)
+7. _Designing Data-Intensive Applications_ by Martin Kleppmann (2017)
+8. _Working Effectively with Legacy Code_ by Michael Feathers (2004)
+9. _Release It!_ by Michael Nygard (2018)
 
 Read one. Apply it. Read the next. Don't rush.
 

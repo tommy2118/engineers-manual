@@ -16,9 +16,9 @@ That gap is the bug. Your job is to find it, understand it, and close it.
 
 Most developers debug by intuition, change things until it works. This is slow, unreliable, and doesn't teach you anything. There's a better way.
 
-I learned debugging on the flight line before I ever touched a codebase. Aircraft maintenance is troubleshooting with higher stakes: hydraulic systems, electrical faults, mechanical failures. You don't guess. You follow the technical order. You isolate the system. You test components. You verify the fix before the aircraft goes back on the line. The methodology is the same whether you're tracing hydraulic pressure or data flow. Gather information. Form hypotheses. Test. Isolate. Fix. Verify.
+I learned debugging on the flight line before I ever touched a codebase. Aircraft maintenance is troubleshooting with higher stakes: hydraulic systems, electrical faults, mechanical failures. You don't guess. You follow the technical order. You isolate the system. You test components. You verify the fix before the aircraft goes back on the line.
 
-Debugging is the scientific method applied to code.
+The methodology is the same whether you're tracing hydraulic pressure or data flow. Gather information. Form hypotheses. Test. Isolate. Fix. Verify. Debugging is the scientific method applied to code.
 
 ---
 
@@ -277,9 +277,9 @@ You'll often return with fresh eyes and immediately see what you were missing.
 
 ### Ask for Help
 
-Fresh eyes see what tired eyes miss. Explain the problem to someone. Often you'll figure it out while explaining. If not, they might see what you're missing.
+Fresh eyes see what tired eyes miss. Explain the problem to someone. Often you'll figure it out while explaining.
 
-There's no shame in asking. It's not a sign of weakness. It's efficient debugging.
+If not, they might see what you're missing. There's no shame in asking. It's not a sign of weakness. It's efficient debugging.
 
 ### It's Almost Never the Framework
 

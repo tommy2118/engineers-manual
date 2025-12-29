@@ -82,9 +82,11 @@ The phrase "best practice" implies a right answer that applies universally. Arch
 
 Architecture isn't about finding the right answer. It's about **choosing the tradeoffs you can live with.**
 
-I learned this as a recruiter before I ever wrote code. Matching a candidate to a role isn't finding the perfect fit—it's choosing which constraints matter most. This candidate has the aptitude but not the timeline. That one has the timeline but needs a waiver. The unit needs the slot filled by end of fiscal year, but the candidate needs six months to finish their degree. There's no right answer. There's only: given these constraints, which tradeoffs can we live with? The pattern transferred directly to software architecture.
+I learned this as a recruiter before I ever wrote code. Matching a candidate to a role isn't finding the perfect fit—it's choosing which constraints matter most.
 
-Anyone who tells you there's a "best practice" for your architecture either doesn't understand your constraints or is selling something.
+This candidate has the aptitude but not the timeline. That one has the timeline but needs a waiver. The unit needs the slot filled by end of fiscal year, but the candidate needs six months to finish their degree. There's no right answer. There's only: given these constraints, which tradeoffs can we live with?
+
+The pattern transferred directly to software architecture. Anyone who tells you there's a "best practice" for your architecture either doesn't understand your constraints or is selling something.
 
 ---
 
