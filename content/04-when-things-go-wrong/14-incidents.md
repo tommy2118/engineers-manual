@@ -83,10 +83,17 @@ If a recent change caused the problem, rolling back is often the fastest fix.
 
 **Don't roll back if:**
 - The change included data migrations that can't be undone
+- Rolling back would cause data loss or corruption
+- There are irreversible side effects (payments processed, emails sent, external state changed)
 - Rolling back would cause a different outage
-- You're not sure the change is the cause
+- You're not sure the change is the cause and rollback itself is risky
 
-When in doubt, roll back. You can always re-deploy once you understand the problem.
+**The principle:** When in doubt, choose the fastest *reversible* mitigation. Rollback is often that, but not always.
+
+Before rolling back, verify:
+- [ ] No irreversible migrations ran
+- [ ] No side effects that can't be undone
+- [ ] Rollback target is a known-good state
 
 ---
 

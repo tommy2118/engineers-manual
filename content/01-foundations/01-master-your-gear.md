@@ -138,7 +138,7 @@ Git is not optional. Git mastery is not optional.
 **Commit discipline:**
 - Small, focused commits
 - Meaningful messages (why, not what)
-- Main is always deployable
+- Trunk is always deployable (main, master, whatever you call it)
 - Rebase to clean up before merge
 
 ### Containers (Docker)
@@ -314,8 +314,22 @@ Tools don't maintain themselves.
 
 **Weekly:**
 - Update dependencies (dev environment)
-- Clean up Docker (`docker system prune`)
+- Clean up Docker (`docker system prune`) — *see warning below*
 - Review and clean up stashes
+
+**On destructive commands:**
+
+Some commands are foot-guns in shared environments:
+
+| Command | Risk | Safer Alternative |
+|---------|------|-------------------|
+| `docker system prune` | Removes all unused data | `docker system prune --filter "until=24h"` |
+| `docker volume prune` | Deletes volumes (data loss!) | Be explicit: `docker volume rm <name>` |
+| `git push --force` | Rewrites shared history | `git push --force-with-lease` |
+| `rm -rf` | No confirmation | `rm -ri` or use trash utility |
+| `kubectl delete` | Immediate, no undo | Always use `--dry-run=client` first |
+
+On your local machine, these are fine. On shared infrastructure or in production, they can ruin someone's day. Know the difference.
 
 **Monthly:**
 - Review and update dotfiles

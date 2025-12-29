@@ -147,6 +147,8 @@ AI cannot:
 
 If you can't defend it, don't ship it. "The AI wrote it" is not an excuse.
 
+**Note:** This guidance represents one coherent policy. Your organization may adopt stricter norms—requiring disclosure in PRs, prohibiting AI for certain work, or mandating review of AI-generated content. When in doubt, check your team's policy.
+
 ### Working Together
 
 **Use AI for first drafts.** Let it generate, then you refine. Faster than starting from blank.

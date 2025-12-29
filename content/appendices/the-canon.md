@@ -291,9 +291,9 @@ end
 ## Trunk-Based Development
 
 **The Practice:**
-- Main branch is always deployable
+- Trunk is always deployable (main, master—the name varies)
 - Short-lived feature branches (< 1 day ideal, < 3 days max)
-- Merge to main frequently
+- Merge to trunk frequently
 - Feature flags for incomplete work
 - No long-lived branches
 
