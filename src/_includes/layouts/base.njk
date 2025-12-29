@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ description or site.description }}">
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
-  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
+  <link rel="stylesheet" href="{{ '/pagefind/pagefind-ui.css' | url }}">
+  <link rel="icon" href="{{ '/favicon.ico' | url }}">
 
   {# Google Analytics 4 #}
   {% if site.googleAnalyticsId %}
@@ -38,7 +38,7 @@
 
   {% include "partials/footer.njk" %}
 
-  <script src="/pagefind/pagefind-ui.js"></script>
-  <script src="/assets/js/main.js"></script>
+  <script src="{{ '/pagefind/pagefind-ui.js' | url }}"></script>
+  <script src="{{ '/assets/js/main.js' | url }}"></script>
 </body>
 </html>
