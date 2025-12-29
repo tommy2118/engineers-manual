@@ -20,7 +20,7 @@ permalink: /
           <ul>
       {% endif %}
       <li>
-        <a href="{{ chapter.url }}" class="manual-toc-link">
+        <a href="{{ chapter.url | url }}" class="manual-toc-link">
           <span class="manual-toc-num">{{ chapter.data.chapter }}</span>
           <span class="manual-toc-title">{{ chapter.data.title }}</span>
           {% if chapter.data.summary %}
@@ -37,7 +37,7 @@ permalink: /
         <ul>
           {% for appendix in collections.appendices %}
             <li>
-              <a href="{{ appendix.url }}" class="manual-toc-link">
+              <a href="{{ appendix.url | url }}" class="manual-toc-link">
                 <span class="manual-toc-title">{{ appendix.data.title }}</span>
               </a>
             </li>

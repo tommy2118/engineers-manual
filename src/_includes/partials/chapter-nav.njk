@@ -12,7 +12,7 @@
   <nav class="chapter-nav" aria-label="Chapter navigation">
     {% if currentIndex > 0 %}
       {% set prevChapter = chapters[currentIndex - 1] %}
-      <a href="{{ prevChapter.url }}" class="group flex flex-col">
+      <a href="{{ prevChapter.url | url }}" class="group flex flex-col">
         <span class="chapter-nav-link">&larr; Previous</span>
         <span class="font-sans text-sm font-semibold text-manual-800 group-hover:text-manual-950 transition-colors uppercase tracking-wide">
           {{ prevChapter.data.title }}
@@ -24,7 +24,7 @@
 
     {% if currentIndex < chapters.length - 1 %}
       {% set nextChapter = chapters[currentIndex + 1] %}
-      <a href="{{ nextChapter.url }}" class="group flex flex-col text-right ml-auto">
+      <a href="{{ nextChapter.url | url }}" class="group flex flex-col text-right ml-auto">
         <span class="chapter-nav-link">Next &rarr;</span>
         <span class="font-sans text-sm font-semibold text-manual-800 group-hover:text-manual-950 transition-colors uppercase tracking-wide">
           {{ nextChapter.data.title }}
