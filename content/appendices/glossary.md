@@ -1,6 +1,6 @@
 ---
 title: "Glossary"
-order: 5
+order: 4
 type: reference
 ---
 

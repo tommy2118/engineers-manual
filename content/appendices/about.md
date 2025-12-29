@@ -1,6 +1,6 @@
 ---
 title: "About This Manual"
-order: 6
+order: 99
 type: reference
 ---
 

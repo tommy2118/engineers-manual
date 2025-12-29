@@ -1,6 +1,6 @@
 ---
 title: "The Canon"
-order: 4
+order: 3
 type: reference
 status: living-document
 ---

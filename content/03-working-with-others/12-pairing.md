@@ -149,6 +149,27 @@ If you can't defend it, don't ship it. "The AI wrote it" is not an excuse.
 
 **Note:** This guidance represents one coherent policy. Your organization may adopt stricter norms—requiring disclosure in PRs, prohibiting AI for certain work, or mandating review of AI-generated content. When in doubt, check your team's policy.
 
+### The Minimum Standard
+
+If your team adopts these practices, follow them:
+
+**Never paste into AI:**
+- Secrets, credentials, API keys
+- Customer data or PII
+- Proprietary code you don't own
+- Anything covered by NDA
+
+**Always be able to:**
+- Explain any code you ship (line by line if asked)
+- Debug it without AI assistance
+- Modify it confidently
+- Defend the design decisions
+
+**When to disclose (if your team requires it):**
+- AI-generated code that made it to production
+- AI-assisted design decisions
+- AI-generated documentation
+
 ### Working Together
 
 **Use AI for first drafts.** Let it generate, then you refine. Faster than starting from blank.

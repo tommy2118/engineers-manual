@@ -96,7 +96,7 @@ Before adding an alert, answer:
 - [ ] What specific condition triggers this?
 - [ ] What's the user impact?
 - [ ] What should the on-call engineer do when this fires?
-- [ ] Is there a runbook? (There should be.)
+- [ ] Is there a runbook? (There should be. See [Runbook template](/appendices/templates/#runbook).)
 - [ ] Is this urgent enough to wake someone up?
 - [ ] Will this alert frequently enough to cause fatigue?
 

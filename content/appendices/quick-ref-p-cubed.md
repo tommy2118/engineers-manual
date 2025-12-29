@@ -1,6 +1,6 @@
 ---
 title: "Quick Reference: P-Cubed"
-order: 1
+order: 10
 type: quick-ref
 ---
 

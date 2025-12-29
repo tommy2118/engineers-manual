@@ -11,6 +11,10 @@ permalink: /
     <p class="manual-cover-edition">{{ site.subtitle }}</p>
   </header>
 
+  <div class="manual-start-here">
+    <strong>New here?</strong> Start with <a href="{{ '/appendices/reading-routes/' | url }}">Reading Routes</a> — guided paths for your role and situation.
+  </div>
+
   <nav class="manual-toc-full" aria-label="Table of contents">
     {% for chapter in collections.chapters %}
       {% if loop.first or chapter.data.part != collections.chapters[loop.index0 - 1].data.part %}

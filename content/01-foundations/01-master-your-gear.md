@@ -173,8 +173,10 @@ services:
   db:
     image: mysql:8
     environment:
-      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
 ```
+
+Put secrets in `.env` (and add `.env` to `.gitignore`). Never commit real credentials.
 
 ### Infrastructure Tools
 

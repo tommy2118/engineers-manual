@@ -164,6 +164,8 @@ You don't have to accept every piece of feedback. Sometimes the reviewer is wron
 
 **LGTM means something.** "Looks Good To Me" means you've actually reviewed it and believe it's ready to merge. Not "I glanced at it."
 
+**Approval means you can maintain it.** When you approve, you're saying: "I understand this well enough that I could own it if the author were unavailable." If you couldn't debug this at 2 AM, don't approve it.
+
 ### After the Review
 
 **Merge promptly once approved.** Don't let approved PRs sit. Merge conflicts accumulate.

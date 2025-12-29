@@ -131,7 +131,7 @@ Silence during an incident is terrifying. People imagine the worst. They start p
 
 **Be honest.** If you don't know, say so. "We're investigating" is fine. Speculation is not.
 
-**Update regularly.** Every 15-30 minutes during active incidents. Even if nothing has changed, "Still investigating, no new information" is an update.
+**Update regularly.** Every 15-30 minutes during active incidents. Even if nothing has changed, "Still investigating, no new information" is an update. (See [Incident Update template](/appendices/templates/#incident-update).)
 
 **Document as you go.** You'll need this for the post-mortem. Write down what you did and when.
 
@@ -262,7 +262,7 @@ The incident is over. Now learn from it.
 
 ### The Blameless Post-Mortem
 
-**The goal is learning, not punishment.**[^1]
+**The goal is learning, not punishment.**[^1] (See [Postmortem template](/appendices/templates/#postmortem).)
 
 [^1]: The concept of blameless post-mortems was popularized by John Allspaw at Etsy and formalized in Google's *Site Reliability Engineering* book (2016). Sidney Dekker's *The Field Guide to Understanding Human Error* (2006) provides the theoretical foundation.
 

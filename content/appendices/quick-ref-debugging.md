@@ -1,6 +1,6 @@
 ---
 title: "Quick Reference: Debugging"
-order: 3
+order: 12
 type: quick-ref
 ---
 
