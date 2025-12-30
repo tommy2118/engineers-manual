@@ -9,7 +9,9 @@ summary: "What it means to be an engineer"
 
 > Engineers solve problems. That's the job. That's the whole job.
 
-*A note on framing: This manual uses military metaphors throughout—the voice in your ear when things are going sideways. The intent is operational, not decorative. If the framing doesn't resonate, take what helps and leave what doesn't. The principles underneath are what matter.*
+*A note on framing: This manual uses military metaphors throughout. The voice in your ear when things are going sideways. The intent is operational, not decorative. If the framing doesn't resonate, take what helps and leave what doesn't. The principles underneath are what matter.*
+
+*This is for engineers who ship production software and take that seriously.*
 
 ---
 
@@ -78,6 +80,8 @@ Responsibility means:
 
 Engineering is a craft. Craft requires practice, discipline, and standards.
 
+Craft is not perfectionism. Perfectionism is the enemy of shipping. **Craft is about appropriate quality**: knowing what level of quality this situation requires and consistently hitting it.
+
 **Practice** means you don't just do the work; you reflect on it. What went well? What didn't? What will you do differently? Experience without reflection is just time spent.[^4]
 
 [^4]: Echoes John Dewey's observation: "We do not learn from experience... we learn from reflecting on experience." See also Donald Schön's *The Reflective Practitioner* (1983).
@@ -85,8 +89,6 @@ Engineering is a craft. Craft requires practice, discipline, and standards.
 **Discipline** means you do the right thing even when no one's watching. You write tests when you could skip them. You refactor when you could ship the hack. You document when you could leave it implicit. Not because someone's checking. Because that's the standard.
 
 **Standards** means you have a bar and you hold it. You know what good looks like. You don't ship below the bar just because you're tired or pressured or bored. The bar is the bar.
-
-Craft is not perfectionism. Perfectionism is the enemy of shipping. Craft is about *appropriate quality*, knowing what level of quality is required and consistently hitting it.
 
 A craftsperson knows:
 - The difference between done and perfect
@@ -98,40 +100,25 @@ A craftsperson knows:
 
 ---
 
-## The Profession vs. The Job
+## The Deal
 
 A job is what you do for money. A profession is what you are.
 
-Professionals:
-- **Own their development.** No one else is responsible for your growth.
-- **Maintain their tools.** Your skills rust if you don't use them.
-- **Build their network.** Steel sharpens steel.[^6]
-- **Uphold standards.** Even when the client/boss/deadline says otherwise.
-- **Say no when necessary.** "I can't ship that with confidence" is a complete sentence.
-
-[^6]: Proverbs 27:17, "As iron sharpens iron, so one person sharpens another."
-
-Professionals don't hide behind "I was just following orders" or "That's how we've always done it" or "The PM said it was fine." You're the engineer. You own the technical decision.
-
-This doesn't mean being difficult. It means being honest. Honest about what's possible. Honest about what's risky. Honest about what you know and don't know.
-
----
-
-## The Deal
+Professionals don't hide behind "I was just following orders" or "That's how we've always done it" or "The PM said it was fine." You're the engineer. You own the technical decision. That doesn't mean being difficult. It means being honest about what's possible, what's risky, and what you know.
 
 Here's the deal you're making when you call yourself an engineer:
 
-1. **You'll solve problems, not just complete tickets.** You'll understand why before you dive into how.
+1. **You'll own your work.** You'll understand the problem before you solve it. If it breaks, you'll fix it. If it's wrong, you'll admit it. If it's unclear, you'll ask.
 
-2. **You'll own your work.** If it breaks, you'll fix it. If it's wrong, you'll admit it. If it's unclear, you'll ask.
+2. **You'll keep learning.** The field moves. You move with it. Stagnation is decay.
 
-3. **You'll keep learning.** The field moves. You move with it. Stagnation is decay.
+3. **You'll help others.** The veterans helped you. You'll help the next ones.[^6]
 
-4. **You'll help others.** The veterans helped you. You'll help the next ones. Steel sharpens steel.
+4. **You'll ship.** Ideas are cheap. Execution is everything. Done is better than perfect.
 
-5. **You'll ship.** Ideas are cheap. Execution is everything. Done is better than perfect.
+5. **You'll be honest.** About timelines, about risks, about what you know. Surprises are worse than bad news.
 
-6. **You'll be honest.** About timelines, about risks, about what you know. Surprises are worse than bad news.
+[^6]: Proverbs 27:17, "As iron sharpens iron, so one person sharpens another."
 
 This is the profession. This is what it means to be an engineer.
 
