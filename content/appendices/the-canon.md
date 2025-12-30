@@ -5,8 +5,6 @@ type: reference
 status: living-document
 ---
 
-# The Canon
-
 > Books, patterns, principles, and hard-won lessons worth knowing. Steel sharpens steel. Don't reinvent the wheel.
 
 ---

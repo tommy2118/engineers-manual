@@ -6,8 +6,6 @@ status: draft
 summary: "Know your tools. Maintain them. Know when to use each one."
 ---
 
-# Master Your Gear
-
 > A military member relies on their gear. They are masters of it. They understand it and maintain it. Whether it is a weapon or a flashlight, they know where it is and how and when to use it.
 
 ---

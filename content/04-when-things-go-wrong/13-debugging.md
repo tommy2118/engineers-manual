@@ -1,6 +1,6 @@
 ---
 title: "Debugging"
-chapter: 13
+chapter: 14
 summary: "Methodology for finding and fixing problems."
 ---
 

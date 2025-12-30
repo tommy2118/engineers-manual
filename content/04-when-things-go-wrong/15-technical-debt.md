@@ -1,6 +1,6 @@
 ---
 title: "Technical Debt"
-chapter: 15
+chapter: 16
 summary: "Recognizing it, paying it down, living with it."
 ---
 

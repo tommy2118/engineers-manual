@@ -6,8 +6,10 @@ layout: layouts/base.njk
   <div>
     {# Field Manual Style Header #}
     <header class="manual-header">
-      {% if chapter is defined %}
+      {% if chapter is defined and chapter > 0 %}
         <p class="manual-header-chapter">Chapter {{ chapter }}</p>
+      {% elif part == 0 %}
+        <p class="manual-header-chapter">Preamble</p>
       {% endif %}
       <h1 class="manual-header-title">{{ title }}</h1>
       {% if summary %}

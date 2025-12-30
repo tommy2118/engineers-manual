@@ -7,8 +7,6 @@ status: draft
 summary: "What it means to be an engineer"
 ---
 
-# The Profession
-
 > Engineers solve problems. That's the job. That's the whole job.
 
 *A note on framing: This manual uses military metaphors throughout—the voice in your ear when things are going sideways. The intent is operational, not decorative. If the framing doesn't resonate, take what helps and leave what doesn't. The principles underneath are what matter.*

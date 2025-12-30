@@ -4,8 +4,6 @@ order: 5
 type: reference
 ---
 
-# Bibliography
-
 > Sources cited throughout this manual.
 
 ---

@@ -25,7 +25,9 @@ permalink: /
       {% endif %}
       <li>
         <a href="{{ chapter.url | url }}" class="manual-toc-link">
-          <span class="manual-toc-num">{{ chapter.data.chapter }}</span>
+          {% if chapter.data.chapter > 0 %}
+            <span class="manual-toc-num">{{ chapter.data.chapter }}</span>
+          {% endif %}
           <span class="manual-toc-title">{{ chapter.data.title }}</span>
           {% if chapter.data.summary %}
             <span class="manual-toc-desc">{{ chapter.data.summary }}</span>

@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-chapter: 17
+chapter: 18
 summary: "Mentoring others. Leaving breadcrumbs."
 ---
 

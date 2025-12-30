@@ -6,8 +6,6 @@ status: draft
 summary: "The hierarchy of truth. How to search. When to ask."
 ---
 
-# Find Your Own Answers
-
 > Service members understand how to find their own answers. They understand the governing guidance and how to interpret it. Law, regulation, guidance. They understand how to apply and what the differences are.
 
 ---

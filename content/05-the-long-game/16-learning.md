@@ -1,6 +1,6 @@
 ---
 title: "Learning"
-chapter: 16
+chapter: 17
 summary: "Building mental models. Compounding knowledge."
 ---
 

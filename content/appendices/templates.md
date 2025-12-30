@@ -4,8 +4,6 @@ order: 2
 type: reference
 ---
 
-# Templates
-
 > Copy. Paste. Adapt. Ship.
 
 These templates encode best practices into reusable formats. They're intentionally minimal. Add what you need; remove what you don't.
@@ -201,7 +199,7 @@ This is not "human error" — dig deeper.]
 
 ## Runbook
 
-```markdown
+````markdown
 # Runbook: [Service/Process Name]
 
 **Last Updated:** [Date]
@@ -276,7 +274,7 @@ Look for: [what to look for]
 - Logs: [link]
 - Alerts: [link]
 - Architecture docs: [link]
-```
+````
 
 ---
 

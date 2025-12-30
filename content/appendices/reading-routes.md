@@ -4,8 +4,6 @@ order: 1
 type: reference
 ---
 
-# Reading Routes
-
 > This is a field manual, not a textbook. You don't read it cover to cover. You use it when you need it.
 
 ---
@@ -38,8 +36,9 @@ Start here. Build the foundation.
 
 1. **[Master Your Gear](/foundations/01-master-your-gear/)** — Know your tools. This is non-negotiable.
 2. **[Find Your Own Answers](/foundations/02-find-your-own-answers/)** — The hierarchy of truth. The 15-minute rule.
-3. **[Code Review](/working-with-others/11-code-review/)** — How we review. How to receive feedback.
-4. **[Pairing & Collaboration](/working-with-others/12-pairing/)** — How we work together.
+3. **[Communication](/working-with-others/10-communication/)** — Declare your status. Asking questions is the work.
+4. **[Code Review](/working-with-others/11-code-review/)** — How we review. How to receive feedback.
+5. **[Pairing & Collaboration](/working-with-others/12-pairing/)** — How we work together.
 
 Then explore as needed. The rest will come.
 

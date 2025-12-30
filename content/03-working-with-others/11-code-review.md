@@ -1,6 +1,6 @@
 ---
 title: "Code Review"
-chapter: 11
+chapter: 12
 summary: "Giving and receiving feedback on code."
 ---
 

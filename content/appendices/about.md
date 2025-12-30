@@ -4,10 +4,6 @@ order: 99
 type: reference
 ---
 
-# About This Manual
-
----
-
 ## What This Is
 
 A field manual for software engineers. Practical, reference-oriented, available when you need it.

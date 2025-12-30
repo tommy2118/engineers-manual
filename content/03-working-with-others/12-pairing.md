@@ -1,6 +1,6 @@
 ---
 title: "Pairing and Collaboration"
-chapter: 12
+chapter: 13
 summary: "How to pair effectively. Working with AI."
 ---
 
@@ -137,9 +137,9 @@ AI cannot:
 - Take responsibility for what ships
 - Replace your judgment
 
-### The Rule
+### The Principle
 
-**AI assists privately. What lands in shared spaces (PRs, Slack, docs) must be unmistakably yours.**
+AI assists privately. What lands in shared spaces—PRs, Slack, docs—should be unmistakably yours.
 
 - Your voice
 - Your judgment
@@ -147,25 +147,25 @@ AI cannot:
 
 If you can't defend it, don't ship it. "The AI wrote it" is not an excuse.
 
-**Note:** This guidance represents one coherent policy. Your organization may adopt stricter norms—requiring disclosure in PRs, prohibiting AI for certain work, or mandating review of AI-generated content. When in doubt, check your team's policy.
+**Your organization may have stricter norms:** requiring disclosure in PRs, prohibiting AI for certain work, or mandating review of AI-generated content. When in doubt, check your team's policy.
 
-### The Minimum Standard
+### The Baseline
 
-If your team adopts these practices, follow them:
+These practices protect you and your team:
 
-**Never paste into AI:**
+**Don't paste into AI:**
 - Secrets, credentials, API keys
 - Customer data or PII
 - Proprietary code you don't own
 - Anything covered by NDA
 
-**Always be able to:**
+**Be able to:**
 - Explain any code you ship (line by line if asked)
 - Debug it without AI assistance
 - Modify it confidently
 - Defend the design decisions
 
-**When to disclose (if your team requires it):**
+**Consider disclosing (especially if your team asks):**
 - AI-generated code that made it to production
 - AI-assisted design decisions
 - AI-generated documentation
