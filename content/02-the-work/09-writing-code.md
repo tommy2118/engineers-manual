@@ -109,9 +109,11 @@ They're not magic. They're forcing functions.
 
 ### Breaking the Rules
 
-You can break them. But know that you're breaking them.
+You can break them. But know that you're breaking them, and say why.
 
 Ask: "What would it take to follow this rule?" If the answer is "significant complexity," maybe the rule isn't the right fit here. If the answer is "some refactoring," do the refactoring.
+
+When you break a rule deliberately, document it: what rule, why you're breaking it, and what you're protecting by doing so. A comment or a note in the PR. Future readers (including you) will thank you.
 
 The rules create pressure toward better design. Use the pressure.
 

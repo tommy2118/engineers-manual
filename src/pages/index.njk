@@ -15,6 +15,10 @@ permalink: /
     <strong>New here?</strong> Start with <a href="{{ '/appendices/reading-routes/' | url }}">Reading Routes</a> — guided paths for your role and situation.
   </div>
 
+  <p class="manual-framing">
+    A field manual for software engineers. Military metaphors throughout: the voice in your ear when things are going sideways. Take what helps. Leave what doesn't.
+  </p>
+
   <nav class="manual-toc-full" aria-label="Table of contents">
     {% for chapter in collections.chapters %}
       {% if loop.first or chapter.data.part != collections.chapters[loop.index0 - 1].data.part %}

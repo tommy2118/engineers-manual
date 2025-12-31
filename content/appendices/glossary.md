@@ -9,10 +9,6 @@ type: reference
 
 ---
 
-## Status: Draft
-
----
-
 ## Levels of Work
 
 **Problem**: An undefined challenge to solve. No clear solution yet. Requires discovery to define what success looks like.

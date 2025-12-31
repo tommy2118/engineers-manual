@@ -282,6 +282,10 @@
     @apply text-accent font-medium underline decoration-accent/50 hover:decoration-accent;
   }
 
+  .manual-framing {
+    @apply text-manual-500 text-sm italic text-center mb-8 max-w-xl mx-auto;
+  }
+
   /* Full Table of Contents */
   .manual-toc-full {
     @apply space-y-6;
