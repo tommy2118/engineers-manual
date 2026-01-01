@@ -76,7 +76,7 @@ export default function(eleventyConfig) {
   });
 
   return {
-    pathPrefix: "/engineers-manual/",
+    pathPrefix: "/",
     dir: {
       input: ".",
       includes: "src/_includes",
