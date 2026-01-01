@@ -1,58 +1,113 @@
 # The Engineer's Manual
-### Volume I
 
-> The voice in your ear. Bullets flying, ammo is low. Night is coming. You need an answer. Grab the manual.
+**[engineers-manual.com](https://engineers-manual.com)**
+
+> A field manual for software engineers. Military metaphors throughout: the voice in your ear when things are going sideways. Take what helps. Leave what doesn't.
 
 ---
 
 ## What This Is
 
-A field manual for software engineers. It covers the fundamentals, the frameworks, and the hard-won lessons that help you ship better.
+A decade in tech, reinforced by two decades of military experience, distilled into a field manual. Not theory. Tactics. The kind of guidance that helps you bootstrap, calibrate, and stay out of ditches you don't need to visit yourself.
 
-This is for engineers at any point in their journey. It exists to guide, teach, mentor, and reinforce.
+Use it like a reference. Start where you are. Skip what you already know. Come back when you're stuck or when the stakes are high.
 
 ---
 
 ## Structure
 
+| Part | Chapters |
+|------|----------|
+| **Preamble** | Foundation, The Profession |
+| **Part 1: Foundations** | Master Your Gear, Find Your Own Answers, Learn From Veterans, You Fight How You Train, Know Yourself |
+| **Part 2: The Work** | Levels of Work, P-Cubed, Architecture vs Design, Writing Code, Operability |
+| **Part 3: Working With Others** | Communication, Code Review, Pairing |
+| **Part 4: When Things Go Wrong** | Debugging, Incidents, Technical Debt |
+| **Part 5: The Long Game** | Learning, Teaching |
+| **Appendices** | Reading Routes, Templates, The Canon, Glossary, Quick References, Bibliography |
+
+---
+
+## Running Locally
+
+```bash
+# Install dependencies
+npm install
+
+# Run dev server (with hot reload)
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
-00-preamble/         → What it means to be an engineer
-01-foundations/      → Master your gear, find answers, learn from veterans, train how you fight
-02-the-work/         → Levels of work, P-Cubed, architecture vs design, writing code
-03-working-with-others/ → Communication, code review, pairing
-04-when-things-go-wrong/ → Debugging, incidents, technical debt
-05-the-long-game/    → Learning, teaching, compounding knowledge
-appendices/          → Quick references, reading list, glossary
+
+The site runs at `http://localhost:8080` in development.
+
+---
+
+## Tech Stack
+
+- **[Eleventy 3.0](https://www.11ty.dev/)** - Static site generator
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS
+- **[Pagefind](https://pagefind.app/)** - Static search
+- **[GitHub Pages](https://pages.github.com/)** - Hosting
+- **markdown-it-anchor** - Heading anchors
+- **markdown-it-footnote** - Footnote support
+
+---
+
+## Content
+
+All content lives in `content/` as Markdown files. Each chapter has frontmatter:
+
+```yaml
+---
+title: "Chapter Title"
+chapter: 1
+part: 1
+summary: "One-line summary"
+---
 ```
 
----
-
-## How to Use This Repo
-
-Each concept lives in its own markdown file. These are the source of truth.
-
-The files are drafts and notes, raw material that will be shaped into the final manual.
+The build process transforms Markdown into the final site. Content is the source of truth.
 
 ---
 
-## The Manual's Principles
+## Key Concepts
 
-1. **Define done before you start.**
-2. **Know what's load-bearing.**
-3. **Master your gear.**
-4. **Find your own answers.**
-5. **Learn from those who came before.**
-6. **Train the way you fight.**
-7. **Know yourself.**
+**The Triptych**: Calibration (who to trust), Feedback (who tells you truth), Orientation (what you're aiming at).
+
+**P-Cubed**: Prepare, Prove, Produce. The cycle for executing work.
+
+**Architecture vs Design**: Load-bearing decisions (hard to change) vs decorative decisions (easy to change). There are no best practices for architecture. Only tradeoffs.
+
+**Reading Routes**: Guided paths through the manual for different roles and situations.
 
 ---
 
-## Status
+## Contributing
 
-Work in progress. Volume I in development.
+This is a personal project, but suggestions are welcome. Open an issue for:
+- Factual errors
+- Broken links
+- Unclear explanations
+- Missing topics that fit the manual's scope
 
 ---
 
 ## Author
 
-Tommy A. Caruso Sr.
+**Tommy A. Caruso Sr.**
+
+MSgt, USAF (Ret.) turned software engineer. The frameworks here emerged from real projects, real failures, and the pattern recognition that comes from solving problems across domains.
+
+---
+
+## License
+
+Content is copyright Tommy A. Caruso Sr. All rights reserved.
+
+Code (templates, build configuration) is MIT licensed.
