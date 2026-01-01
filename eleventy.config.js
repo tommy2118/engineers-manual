@@ -9,7 +9,7 @@ export default function(eleventyConfig) {
   eleventyConfig.ignores.add("node_modules/**");
 
   // Pass through static assets
-  eleventyConfig.addPassthroughCopy("public");
+  eleventyConfig.addPassthroughCopy({ "public": "/" });
   eleventyConfig.addPassthroughCopy({ "src/assets/js": "assets/js" });
 
   // Watch CSS for changes
