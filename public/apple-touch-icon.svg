@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" role="img" aria-label="Engineer’s Manual icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="100%" stop-color="#10161e"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="180" height="180" fill="url(#bg)"/>
+
+  <rect x="14.4" y="14.4" width="151.2" height="151.2" rx="39.6" ry="39.6"
+        fill="none" stroke="#fff" stroke-opacity="0.16" stroke-width="5.3999999999999995"/>
+
+  <rect x="62.99999999999999" y="13.4" width="54.0" height="21.599999999999998" rx="10.799999999999999" ry="10.799999999999999"
+        fill="#dca846" fill-opacity="0.86"/>
+
+  <text x="90.0" y="104.39999999999999" text-anchor="middle" dominant-baseline="middle"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'DejaVu Sans', sans-serif" font-weight="800" font-size="82.8"
+        fill="#e8e4d5">EM</text>
+
+  <circle cx="32.4" cy="140.4" r="5.3999999999999995" fill="#dca846" fill-opacity="0.86"/>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628" role="img" aria-label="The Engineer's Manual">
+  <defs>
+    <linearGradient id="bg_1200x628" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="100%" stop-color="#10161e"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="628" fill="url(#bg_1200x628)"/>
+
+  <rect x="37.68" y="37.68" width="1124.64" height="552.64" rx="25.12" ry="25.12"
+        fill="none" stroke="#fff" stroke-opacity="0.16" stroke-width="3.14"/>
+
+  <!-- Icon -->
+  <g transform="translate(87.92 194.68)">
+    <defs>
+      <linearGradient id="bg_1200x628_icon" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0b0f14"/>
+        <stop offset="100%" stop-color="#10161e"/>
+      </linearGradient>
+    </defs>
+
+    <rect x="0" y="0" width="238.64" height="238.64" fill="url(#bg_1200x628_icon)"/>
+    <rect x="19.0912" y="19.0912" width="200.4576" height="200.4576" rx="52.5008" ry="52.5008"
+          fill="none" stroke="#fff" stroke-opacity="0.16" stroke-width="7.1592"/>
+    <rect x="83.524" y="18.0912" width="71.592" height="28.6368" rx="14.3184" ry="14.3184"
+          fill="#dca846" fill-opacity="0.86"/>
+    <text x="119.32" y="138.4112" text-anchor="middle" dominant-baseline="middle"
+          font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'DejaVu Sans', sans-serif" font-weight="800" font-size="109.77"
+          fill="#e8e4d5">EM</text>
+    <circle cx="42.9552" cy="186.1392" r="7.1592" fill="#dca846" fill-opacity="0.86"/>
+  </g>
+
+  <!-- Text -->
+  <text x="376.8" y="258" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'DejaVu Sans', sans-serif" font-weight="800" font-size="72" fill="#e8e4d5">
+    <tspan x="376.8" dy="0">The Engineer's</tspan>
+    <tspan x="376.8" dy="80">Manual</tspan>
+  </text>
+
+  <rect x="376.8" y="363" width="280" height="5.024" rx="4" ry="4" fill="#dca846" fill-opacity="0.78"/>
+
+  <text x="376.8" y="416" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'DejaVu Sans', sans-serif" font-weight="500" font-size="32" fill="#e8e4d5" fill-opacity="0.9">
+    <tspan x="376.8" dy="0">A field manual for software engineers</tspan>
+  </text>
+
+  <text x="1162.32" y="552.64" text-anchor="end"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'DejaVu Sans', sans-serif" font-weight="400" font-size="28.26"
+        fill="#fff" fill-opacity="0.39">engineers-manual.com</text>
+</svg>
